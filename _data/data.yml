@@ -8,7 +8,7 @@ basic:
 contact:
   # meta
   location: Denver, CO
-  email: powell.andrew@6@gmail.com
+  email: powell.andrew26@gmail.com
   phone: +1-703-989-8691
   website: 
 
@@ -27,9 +27,6 @@ profile:
   order: 1
   title: Summary
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
-
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
 
 experience:
   show: true
@@ -38,13 +35,22 @@ experience:
   description: 
   items:
     - company: General Dynamics Mission Systems
-      link: '#'
+      link: 
       tags: Full-time
-      date: 2020 - Present
+      date: 2023 - Present
       role: Senior Software Engineer
       location: Pittsfield, MA
       description: |
-        Your key responsibilities and achievements in the company.
+        + First
+        + Second
+
+    - company: General Dynamics Mission Systems
+      link: 
+      tags: Full-time
+      date: 2020 - 2023
+      role: Software Engineer
+      location: Pittsfield, MA
+      description: |
         + First
         + Second
 
@@ -55,7 +61,6 @@ experience:
       role: Systems Engineering Consultant
       location: Detroit, MI
       description: |
-        Your key responsibilities and achievements in the company.
         + First
         + Second
 
@@ -66,40 +71,32 @@ project:
   description: 
   items:
     - name: MapReduce Framework
-      link:
-        tags: 
-      date:
+      link: https://github.gatech.edu/apowell83/mapreduce
+      tags: 
+      date: 2024
         description: |
-          OSS project description...
           + First
-          + Second
 
     - name: Distributed File System
-      link:
+      link: https://github.gatech.edu/apowell83/dfs
       tags:
-      date: 2015 - 2017
+      date: 2023
       description: |
-        Personal project description...
         + First
-        + Second
 
     - name: Remote Display Server
       link:
       tags:
-      date: 2015 - 2017
+      date: 2023
       description: |
-        Personal project description...
         + First
-        + Second
 
-    - name: Ecommerce Microservice
-      link:
+    - name: Distributed Ecommerce Service
+      link: https://github.gatech.edu/apowell83/ecommerce-service
       tags:
-      date:
+      date: 2024
       description: |
-        OSS project description...
         + First
-        + Second
 
 skill:
   show: true
