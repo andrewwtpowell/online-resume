@@ -42,7 +42,6 @@ experience:
       location: Pittsfield, MA
       description: |
         + First
-        + Second
 
     - company: General Dynamics Mission Systems
       link: 
@@ -52,7 +51,6 @@ experience:
       location: Pittsfield, MA
       description: |
         + First
-        + Second
 
     - company: INVENSITY Technology Consulting
       link:
@@ -62,7 +60,6 @@ experience:
       location: Detroit, MI
       description: |
         + First
-        + Second
 
 project:
   show: true
@@ -117,8 +114,8 @@ education:
       major: Computer Science
       degree: Master
       description: |
-        Computing Systems Specialization
-        Current GPA - 4.0
+        + Computing Systems Specialization
+        + Current GPA - 4.0
 
     - institution: University of Virginia
       link:
