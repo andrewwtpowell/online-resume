@@ -74,7 +74,7 @@ project:
       link: https://github.gatech.edu/apowell83/mapreduce
       tags: 
       date: 2024
-        description: |
+      description: |
           + First
 
     - name: Distributed File System
