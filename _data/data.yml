@@ -14,6 +14,7 @@ contact:
 
   # programmer
   github: https://github.com/andrewwtpowell
+  github: https://github.gatech.edu/apowell83
 
   # other cv
   linkedin:                # username          | https://linkedin.com/in/username
@@ -41,7 +42,10 @@ experience:
       role: Senior Software Engineer
       location: Pittsfield, MA
       description: |
-        + First
+        + Implemented Remote Display Server solution for General Purpose Computing platform
+        + Assisted Systems Engineering Team in defining General Purpose Computing Platform Concept Architecture
+        + Designed and prototyped common services to support application integration to General Purpose Computing platform
+        + Performed trade studies to identify COTS solutions for critical capabilities
 
     - company: General Dynamics Mission Systems
       link: 
@@ -50,7 +54,8 @@ experience:
       role: Software Engineer
       location: Pittsfield, MA
       description: |
-        + First
+        + Led software engineering efforts for modernization of shipboard diagnostic tool
+        + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
 
     - company: INVENSITY Technology Consulting
       link:
@@ -59,7 +64,7 @@ experience:
       role: Systems Engineering Consultant
       location: Detroit, MI
       description: |
-        + First
+        + Performed requirements decomposition for automotive control system
 
 project:
   show: true
@@ -67,31 +72,38 @@ project:
   title: Projects
   description: 
   items:
-    - name: MapReduce Framework
-      link: https://github.gatech.edu/apowell83/mapreduce
-      tags: 
+    - name: Infrastructure Monitoring Service Prototype
+      link: 
+      tags: GDMS
       date: 2024
       description: |
-          + First
+        + First
+
+    - name: MapReduce Framework
+      link: https://github.gatech.edu/apowell83/mapreduce
+      tags: Georgia Tech
+      date: 2024
+      description: |
+        + First
+
+    - name: Distributed Ecommerce Service
+      link: https://github.gatech.edu/apowell83/ecommerce-service
+      tags: Georgia Tech
+      date: 2024
+      description: |
+        + First
 
     - name: Distributed File System
       link: https://github.gatech.edu/apowell83/dfs
-      tags:
+      tags: Georgia Tech
       date: 2023
       description: |
         + First
 
     - name: Remote Display Server
       link:
-      tags:
+      tags: GDMS
       date: 2023
-      description: |
-        + First
-
-    - name: Distributed Ecommerce Service
-      link: https://github.gatech.edu/apowell83/ecommerce-service
-      tags:
-      date: 2024
       description: |
         + First
 
@@ -100,6 +112,7 @@ skill:
   order: 4
   title: Skills
   description: |
+    Linux, Virtualization, Containerization, C, C++, Go, Bash, Distributed Systems, CMake, Kubernetes, System Administration, GitLab CI/CD, Ansible
 
 
 education:
