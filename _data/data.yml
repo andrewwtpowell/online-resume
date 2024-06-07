@@ -40,12 +40,12 @@ experience:
       link: 
       tags: Full-time
       date: 2023 - Present
-      role: Senior Software Engineer
+      role: Senior Software Engineer - General Purpose Computing Platform
       location: Pittsfield, MA
       description: |
-        + Implemented Remote Display Server solution for General Purpose Computing Platform
-        + Supported requirements definition and functional analysis of General Purpose Computing Platform
-        + Designed and prototyped common services to support application integration to General Purpose Computing Platform
+        + Implemented Remote Display Server solution
+        + Supported requirements definition and functional analysis activities
+        + Designed and prototyped common services to support application integration
         + Performed trade studies to identify COTS solutions for critical functionality
 
     - company: General Dynamics Mission Systems
@@ -113,14 +113,17 @@ project:
       tags: GDMS
       date: 2023
       description: |
-        + First
+        + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
+        + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
+        + Implemented priority-based failover capability to handle thin client failure
+        + Deployed solution components to RKE2 cluster and performed network setup to ensure proper communication between components
 
 skill:
   show: true
   order: 4
   title: Skills
   description: |
-    Linux, Virtualization, Containerization, C, C++, Go, Bash, Distributed Systems, CMake, Kubernetes, System Administration, GitLab CI/CD, Ansible
+    Linux, Virtualization, Containerization, C, C++, Go, Bash, Distributed Systems, CMake, Kubernetes (RKE2), System Administration, GitLab CI/CD, Ansible
 
 
 education:
