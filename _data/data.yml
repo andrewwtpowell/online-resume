@@ -28,7 +28,7 @@ profile:
   order: 1
   title: Summary
   description: |
-    I am a software engineer specializing in computing infrastructure and distributed systems with experience in the Defense Industry.
+    I am a Software Engineer specializing in Computing Infrastructure and Distributed Systems with experience in the Defense Industry.
 
 experience:
   show: true
@@ -43,10 +43,10 @@ experience:
       role: Senior Software Engineer - General Purpose Computing Platform
       location: Pittsfield, MA
       description: |
-        + Implemented Remote Display Server solution
-        + Supported requirements definition and functional analysis activities
-        + Designed and prototyped common services to support application integration
+        + Implemented Remote Display Server supporting scalable application displays
+        + Designed and prototyped common services supporting widely used functionality across users
         + Performed trade studies to identify COTS solutions for critical functionality
+        + Supported requirements definition and system design activities
 
     - company: General Dynamics Mission Systems
       link: 
@@ -56,6 +56,7 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software engineering efforts for modernization of shipboard diagnostic tool
+        + Updated UI to use web application framework leveraging Python Flask and htmx
         + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
 
     - company: INVENSITY Technology Consulting
@@ -78,8 +79,8 @@ project:
       tags: GDMS
       date: 2024
       description: |
-        + Implemented C++ application to monitor status and resource utilization of VMs and Containers
-        + Leveraged DDS to periodically publish status for entities on the network to consume
+        + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
+        + Leveraged DDS to periodically publish status to subscribers on the network
 
     - name: MapReduce Framework
       link: https://github.gatech.edu/apowell83/mapreduce
@@ -87,17 +88,17 @@ project:
       date: 2024
       description: |
         + Implemented the MapReduce Framework using C++ as defined by Google in their paper published on the subject
-        + Tested implementation against large data set to validate accurate and expeditious processing of data
         + Integrated gRPC to handle communications between master and worker nodes
-        + Handled failure scenarios including failed workers and lagging workers
+        + Implemented failure handling for failed workers as well as lagging workers
+        + Tested implementation against large data set to verify accurate and expeditious data processing
 
     - name: Distributed Ecommerce Service
       link: https://github.gatech.edu/apowell83/ecommerce-service
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented an ecommerce service using C++ and gRPC that accepts requests from clients, sends subsequent requests to vendors, processes results, and supplies client with pertinent information
-        + Leveraged asynchronous gRPC and thread pool implementation to support concurrent service request processing
+        + Implemented service that accepts product requests from clients, queries vendors for product bids, processes results, and supplies client with product data
+        + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
     - name: Distributed File System
       link: https://github.gatech.edu/apowell83/dfs
@@ -116,14 +117,14 @@ project:
         + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
         + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
         + Implemented priority-based failover capability to handle thin client failure
-        + Deployed solution components to RKE2 cluster and performed network setup to ensure proper communication between components
+        + Deployed solution to RKE2 cluster for integration with supported applications
 
 skill:
   show: true
   order: 4
   title: Skills
   description: |
-    Linux, Virtualization, Containerization, C, C++, Go, Bash, Distributed Systems, CMake, Kubernetes (RKE2), System Administration, GitLab CI/CD, Ansible
+    Linux, QEMU, KVM, Docker, Podman, C, C++, Go, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
 
 
 education:
