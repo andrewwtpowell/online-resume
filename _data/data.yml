@@ -16,7 +16,7 @@ contact:
   # github: andrewwtpowell
 
   # other cv
-  linkedin: andrew-powell-0792a8153
+  linkedin: #andrew-powell-0792a8153
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -42,10 +42,10 @@ experience:
       role: Senior Software Engineer - General Purpose Computing Platform
       location: Pittsfield, MA
       description: |
-        + Implemented Remote Display Server supporting scalable application displays with failover capability
-        + Designed and prototyped infrastructure monitoring application using C++, DDS, and third party APIs
+        + Implemented Remote Display Server supporting scalable display of remote apps
+        + Prototyped infrastructure monitoring service using C++, DDS, and third party APIs
         + Performed trade studies to identify key solutions for critical functionality
-        + Supported requirements definition and system design activities
+        + Led requirements definition and system design activities
 
     - company: General Dynamics Mission Systems
       link: 
@@ -54,7 +54,7 @@ experience:
       role: Software Engineer
       location: Pittsfield, MA
       description: |
-        + Led software engineering efforts for modernization of shipboard diagnostic tool
+        + Led software development efforts for modernization of shipboard diagnostic tool
         + Designed web application UI using Python Flask, htmx, and CSS
         + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
 
@@ -88,7 +88,7 @@ project:
       description: |
         + Implemented the MapReduce Framework using C++ and gRPC
         + Incorporated failure handling for failed workers, as well as lagging workers
-        + Tested implementation against large data set to verify accuracy and benchmark performance
+        + Tested implementation against large data set to verify accuracy and performance
 
     #- name: Distributed Ecommerce Service
     #  link: https://github.gatech.edu/apowell83/ecommerce-service
@@ -103,9 +103,9 @@ project:
       tags: Georgia Tech
       date: 2023
       description: |
-        + Implemented DFS with weakly consistent client-side caching similar to the Andrew File System
-        + Used both synchronous and asynchronous gRPC APIs to handle client-server communications
-        + Incorporated functionality for fetching, storing, locking, and listing files, as well as file synchronization between server and clients
+        + Implemented a DFS with weakly consistent client-side caching
+        + Used synchronous and asynchronous gRPC APIs to handle client-server communications
+        #+ Supported fetching, storing, locking, and listing files, as well as file synchronization between server and clients
 
     #- name: Remote Display Server
     #  link:
@@ -122,7 +122,7 @@ skill:
   order: 2
   title: Skills
   description: |
-    C, C++, gRPC, Linux, Virtualization, Containerization, Go, DDS, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
+    C, C++, gRPC, Linux, KVM, Docker, Go, DDS, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
 
 
 education:
@@ -136,9 +136,7 @@ education:
       date: 2023 - Present
       major: Computer Science
       degree: Master
-      description: |
-        + Computing Systems Specialization
-        + Current GPA - 4.0
+      description: 
 
     - institution: University of Virginia
       link:
