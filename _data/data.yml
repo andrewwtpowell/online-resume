@@ -122,7 +122,7 @@ skill:
   order: 2
   title: Skills
   description: |
-    C, C++, gRPC, Linux, KVM, Docker, Go, DDS, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
+    C, C++, gRPC, Linux, KVM, Docker, Go, DDS, Bash, CMake, Kubernetes, GitLab CI/CD, Ansible, Python, Model Based Systems Engineering (MBSE)
 
 
 education:
