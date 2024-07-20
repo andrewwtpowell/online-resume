@@ -42,9 +42,9 @@ experience:
       role: Senior Software Engineer - General Purpose Computing Platform
       location: Pittsfield, MA
       description: |
-        + Implemented Remote Display Server supporting scalable application displays
-        + Designed and prototyped common services supporting widely used functionality across users
-        + Performed trade studies to identify COTS solutions for critical functionality
+        + Implemented Remote Display Server supporting scalable application displays with failover capability
+        + Designed and prototyped infrastructure monitoring application using C++, DDS, and third party APIs
+        + Performed trade studies to identify key solutions for critical functionality
         + Supported requirements definition and system design activities
 
     - company: General Dynamics Mission Systems
@@ -55,7 +55,7 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software engineering efforts for modernization of shipboard diagnostic tool
-        + Updated UI to use web application framework leveraging Python Flask and htmx
+        + Designed web application UI using Python Flask, htmx, and CSS
         + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
 
     - company: INVENSITY Technology Consulting
@@ -73,30 +73,29 @@ project:
   title: Projects
   description: 
   items:
-    - name: Infrastructure Monitoring Service Prototype
+    - name: Infrastructure Monitoring Application
       link: 
       tags: GDMS
       date: 2024
       description: |
         + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
-        + Leveraged DDS to periodically publish status to subscribers on the network
+        + Leveraged DDS to publish current status to subscribers on the network
 
     - name: MapReduce Framework
       link: https://github.gatech.edu/apowell83/mapreduce
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented the MapReduce Framework using C++ as defined by Google in their paper published on the subject
-        + Integrated gRPC to handle communications between master and worker nodes
-        + Implemented failure handling for failed workers as well as lagging workers
-        + Tested implementation against large data set to verify accurate and expeditious data processing
+        + Implemented the MapReduce Framework using C++ and gRPC
+        + Incorporated failure handling for failed workers, as well as lagging workers
+        + Tested implementation against large data set to verify accuracy and benchmark performance
 
     - name: Distributed Ecommerce Service
       link: https://github.gatech.edu/apowell83/ecommerce-service
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented service that accepts product requests from clients, queries vendors for product bids, processes results, and supplies client with product data
+        + Implemented service that gathers and communicates product vendor bids based on client requests
         + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
     - name: Distributed File System
@@ -123,7 +122,7 @@ skill:
   order: 4
   title: Skills
   description: |
-    Linux, QEMU, KVM, Docker, Podman, C, C++, Go, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
+    C, C++, gRPC, Linux, Virtualization, Containerization, Go, DDS, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
 
 
 education:
