@@ -58,14 +58,14 @@ experience:
         + Designed web application UI using Python Flask, htmx, and CSS
         + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
 
-    - company: INVENSITY Technology Consulting
-      link:
-      tags: Full-time
-      date: 2019 - 2020
-      role: Systems Engineering Consultant
-      location: Detroit, MI
-      description: |
-        + Performed requirements decomposition for automotive control system
+    #- company: INVENSITY Technology Consulting
+    #  link:
+    #  tags: Full-time
+    #  date: 2019 - 2020
+    #  role: Systems Engineering Consultant
+    #  location: Detroit, MI
+    #  description: |
+    #    + Performed requirements decomposition for automotive control system
 
 project:
   show: true
