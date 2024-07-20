@@ -31,7 +31,7 @@ profile:
 
 experience:
   show: true
-  order: 2
+  order: 3
   title: Work Experience
   description: 
   items:
@@ -69,17 +69,17 @@ experience:
 
 project:
   show: true
-  order: 3
+  order: 5
   title: Projects
   description: 
   items:
-    - name: Infrastructure Monitoring Application
-      link: 
-      tags: GDMS
-      date: 2024
-      description: |
-        + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
-        + Leveraged DDS to publish current status to subscribers on the network
+    #- name: Infrastructure Monitoring Application
+    #  link: 
+    #  tags: GDMS
+    #  date: 2024
+    #  description: |
+    #    + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
+    #    + Leveraged DDS to publish current status to subscribers on the network
 
     - name: MapReduce Framework
       link: https://github.gatech.edu/apowell83/mapreduce
@@ -90,13 +90,13 @@ project:
         + Incorporated failure handling for failed workers, as well as lagging workers
         + Tested implementation against large data set to verify accuracy and benchmark performance
 
-    - name: Distributed Ecommerce Service
-      link: https://github.gatech.edu/apowell83/ecommerce-service
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Implemented service that gathers and communicates product vendor bids based on client requests
-        + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
+        #- name: Distributed Ecommerce Service
+        #  link: https://github.gatech.edu/apowell83/ecommerce-service
+        #  tags: Georgia Tech
+        #  date: 2024
+        #  description: |
+        #    + Implemented service that gathers and communicates product vendor bids based on client requests
+        #    + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
     - name: Distributed File System
       link: https://github.gatech.edu/apowell83/dfs
@@ -107,19 +107,19 @@ project:
         + Used both synchronous and asynchronous gRPC APIs to handle client-server communications
         + Incorporated functionality for fetching, storing, locking, and listing files, as well as file synchronization between server and clients
 
-    - name: Remote Display Server
-      link:
-      tags: GDMS
-      date: 2023
-      description: |
-        + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
-        + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
-        + Implemented priority-based failover capability to handle thin client failure
-        + Deployed solution to RKE2 cluster for integration with supported applications
+        #- name: Remote Display Server
+        #  link:
+        #  tags: GDMS
+        #  date: 2023
+        #  description: |
+        #    + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
+        #    + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
+        #    + Implemented priority-based failover capability to handle thin client failure
+        #    + Deployed solution to RKE2 cluster for integration with supported applications
 
 skill:
   show: true
-  order: 4
+  order: 2
   title: Skills
   description: |
     C, C++, gRPC, Linux, Virtualization, Containerization, Go, DDS, Bash, CMake, Kubernetes (RKE2), GitLab CI/CD, Ansible
@@ -127,7 +127,7 @@ skill:
 
 education:
   show: true
-  order: 5
+  order: 4
   title: Education
   description:   
   items:
