@@ -105,7 +105,7 @@ project:
       description: |
         + Implemented a DFS with weakly consistent client-side caching
         + Used synchronous and asynchronous gRPC APIs to handle client-server communications
-        #+ Supported fetching, storing, locking, and listing files, as well as file synchronization between server and clients
+    #+ Supported fetching, storing, locking, and listing files, as well as file synchronization between server and clients
 
     #- name: Remote Display Server
     #  link:
