@@ -103,7 +103,7 @@ project:
       tags: Georgia Tech
       date: 2023
       description: |
-        + Implemented a DFS with weakly consistent client-side caching
+        + Implemented a DFS with weakly consistent client-side caching using C++ and gRPC
         + Used synchronous and asynchronous gRPC APIs to handle client-server communications
     #+ Supported fetching, storing, locking, and listing files, as well as file synchronization between server and clients
 
