@@ -27,7 +27,7 @@ profile:
   order: 1
   title: Summary
   description: |
-    Software Engineer with 4+ years of experience specializing in Computing Infrastructure and Distributed Systems. I design and develop critical, efficient, and reliable software using C, C++, Go, and Python.
+    Software Engineer with 4+ years of experience specializing in Systems Programming and Computing Infrastructure. I design and develop critical, efficient, and reliable software using C, C++, Go, and Python.
 
 experience:
   show: true
