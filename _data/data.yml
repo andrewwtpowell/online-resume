@@ -45,7 +45,8 @@ experience:
         + Implemented Remote Display Server supporting scalable display of remote apps
         + Prototyped infrastructure monitoring service using C++, DDS, and third party APIs
         + Performed trade studies to identify key solutions for critical functionality
-        + Led requirements definition and system design activities
+
+    #+ Led requirements definition and system design activities
 
     - company: General Dynamics Mission Systems
       link: 
