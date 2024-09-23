@@ -40,7 +40,7 @@ experience:
       tags: Full-time
       date: 2023 - Present
       role: Senior Software Engineer
-        # location: Pittsfield, MA
+      location: Remote - Denver, CO
       description: |
         + Designed common service architecture and interfaces to support downstream user needs
         + Implemented Remote Display Server supporting scalable display of remote applications
@@ -54,7 +54,7 @@ experience:
       tags: Full-time
       date: 2020 - 2023
       role: Software Engineer
-        # location: Pittsfield, MA
+      location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
         + Designed web application UI using Python Flask, htmx, and CSS
