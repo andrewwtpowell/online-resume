@@ -70,12 +70,7 @@ For example, if you already have an English version resume and you want to creat
 
 You can read and follow [Cloudflare Pages][Cloudflare Pages], [Vercel][Vercel] documents.
 
-## Others
 
-- Hugo Version: [hugo-theme-online-resume][Other Version]
-
-
-[Demo]: https://tarrex.github.io/online-resume
+[Demo]: https://andrewwtpowell.github.io/online-resume
 [Cloudflare Pages]: https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site/
 [Vercel]: https://vercel.com/guides/deploying-jekyll-with-vercel
-[Other Version]: https://github.com/tarrex/hugo-theme-online-resume

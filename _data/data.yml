@@ -27,11 +27,11 @@ profile:
   order: 1
   title: Summary
   description: |
-    Software Engineer with 4+ years of experience specializing in Systems Programming and Computing Infrastructure. I design and develop critical, efficient, and reliable software using C, C++, Go, and Python.
+    Senior Software Engineer specializing in Systems Programming and Computing Infrastructure. I am passionate about developing reliable, scalable systems using C, C++, Go, and Python that efficiently utilize available resources while meeting customer needs. My technical skills work in concert with my leadership capabilities to improve overall team productivity and product efficacy.
 
 experience:
   show: true
-  order: 3
+  order: 4
   title: Work Experience
   description: 
   items:
@@ -42,9 +42,10 @@ experience:
       role: Senior Software Engineer
       location: Pittsfield, MA
       description: |
-        + Implemented Remote Display Server supporting scalable display of remote apps
-        + Prototyped infrastructure monitoring service using C++, DDS, and third party APIs
-        + Performed trade studies to identify key solutions for critical functionality
+        + Designed common service architecture and interfaces to support downstream user needs
+        + Implemented Remote Display Server supporting scalable display of remote applications
+        + Prototyped infrastructure monitoring service using C++, RTI DDS, and third party APIs
+        + Performed trade studies to identify key solutions pertaining to service design, external time synchronization, and container support
 
     #+ Led requirements definition and system design activities
 
@@ -74,16 +75,26 @@ project:
   title: Projects
   description: 
   items:
-    #- name: Infrastructure Monitoring Application
-    #  link: 
-    #  tags: GDMS
-    #  date: 2024
-    #  description: |
-    #    + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
-    #    + Leveraged DDS to publish current status to subscribers on the network
+    - name: Software Defined Networking
+      link: # https://github.gatech.edu/apowell83/sdn-project
+      date: 2024
+      description: |
+        + Utilized mininet APIs to programmatically deploy network topologies dynamically
+        + Implemented SDN Controller using os-ken framework, Open vSwitch, and OpenFlow
+        + Employed dynamic network topology discovery for the SDN Controller using os-ken event APIs
+        + Designed various SDN routing algorithms to optimize network traffic, including shortest path, widest path, proactive rules, and proactive redistribution
+        + Implemented handling for switches and links going down
+        
+    - name: Infrastructure Monitoring Application
+      link: 
+      tags: GDMS
+      date: 2024
+      description: |
+        + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
+        + Leveraged RTI DDS to publish current status to subscribers on the network
 
     - name: MapReduce Framework
-      link: https://github.gatech.edu/apowell83/mapreduce
+      link: # https://github.gatech.edu/apowell83/mapreduce
       tags: Georgia Tech
       date: 2024
       description: |
@@ -100,35 +111,36 @@ project:
     #    + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
     - name: Distributed File System
-      link: https://github.gatech.edu/apowell83/dfs
+      link: # https://github.gatech.edu/apowell83/dfs
       tags: Georgia Tech
       date: 2023
       description: |
-        + Implemented a DFS with weakly consistent client-side caching using C++ and gRPC
+        + Implemented a DFS with weakly consistent client-side caching using Golang and gRPC
         + Used synchronous and asynchronous gRPC APIs to handle client-server communications
-    #+ Supported fetching, storing, locking, and listing files, as well as file synchronization between server and clients
+        + Supported fetching, storing, locking, and listing files between server and clients
+        + Implemented automatic file synchronization between server and clients from mounted filesystem directories
 
-    #- name: Remote Display Server
-    #  link:
-    #  tags: GDMS
-    #  date: 2023
-    #  description: |
-    #    + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
-    #    + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
-    #    + Implemented priority-based failover capability to handle thin client failure
-    #    + Deployed solution to RKE2 cluster for integration with supported applications
+    - name: Remote Display Server
+      link:
+      tags: GDMS
+      date: 2023
+      description: |
+        + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
+        + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
+        + Implemented priority-based failover capability to handle thin client failure
+        + Deployed solution to RKE2 cluster for integration with supported applications
 
 skill:
   show: true
   order: 2
   title: Skills
   description: |
-    C, C++, gRPC, Linux, KVM, Docker, Go, DDS, Bash, CMake, Kubernetes, GitLab CI/CD, Ansible, Python, Model Based Systems Engineering (MBSE)
+    C, C++, gRPC, Linux, Virtualization, Containerization, Golang, RTI DDS, Bash, Software Defined Networking, CMake, Kubernetes, GitLab CI/CD, Ansible, Python, Model Based Systems Engineering (MBSE)
 
 
 education:
   show: true
-  order: 4
+  order: 3
   title: Education
   description:   
   items:
@@ -137,7 +149,7 @@ education:
       date: 2023 - Present
       major: Computer Science
       degree: Master
-      description: 
+      description: Computing Systems Specialization
 
     - institution: University of Virginia
       link:
