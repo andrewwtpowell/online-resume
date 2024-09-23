@@ -149,7 +149,8 @@ education:
       date: 2023 - Present
       major: Computer Science
       degree: Master
-      description: Computing Systems Specialization
+      description: |
+        + Computing Systems Specialization
 
     - institution: University of Virginia
       link:
