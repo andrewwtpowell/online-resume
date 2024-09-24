@@ -43,9 +43,10 @@ experience:
       location: Remote - Denver, CO
       description: |
         + Designed common service architecture and interfaces to support downstream user needs
-        + Implemented Remote Display Server supporting scalable display of remote applications
+        + Implemented Remote Display Server supporting simultaneous display of multiple remote applications
+        + Deployed prototype services to Kubernetes cluster
         + Prototyped infrastructure monitoring service using C++, RTI DDS, and third party APIs
-        + Performed trade studies to identify key solutions pertaining to service design, external time synchronization, and container support
+        + Performed trade studies to identify key solutions for service design, time synchronization, and container support
 
     #+ Led requirements definition and system design activities
 
@@ -86,13 +87,13 @@ project:
         + Designed various SDN routing algorithms to optimize network traffic based on available statistics
         + Implemented handling for runtime topology changes
         
-    - name: Infrastructure Monitoring Application
-      link: 
-      tags: GDMS
-      date: 2024
-      description: |
-        + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
-        + Leveraged RTI DDS to publish current status to subscribers on the network
+    # - name: Infrastructure Monitoring Application
+    #   link: 
+    #   tags: GDMS
+    #   date: 2024
+    #   description: |
+    #     + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
+    #     + Leveraged RTI DDS to publish current status to subscribers on the network
 
     - name: MapReduce Framework
       link: # https://github.gatech.edu/apowell83/mapreduce
@@ -121,15 +122,15 @@ project:
         + Supported fetching, storing, locking, and listing files between server and clients
         + Implemented automatic file synchronization between server and clients from mounted filesystem directories
 
-    - name: Remote Display Server
-      link:
-      tags: GDMS
-      date: 2023
-      description: |
-        + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
-        + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
-        + Implemented priority-based failover capability to handle thin client failure
-        + Deployed solution to RKE2 cluster for integration with supported applications
+    # - name: Remote Display Server
+    #   link:
+    #   tags: GDMS
+    #   date: 2023
+    #   description: |
+    #     + Built scalable remote display solution to accept remote display data from multiple sources and forward the displays to network-connected thin clients
+    #     + Integrated COTS technologies for DHCP and PXE server (dnsmasq), http server (nginx), and desktop broker (apache guacamole)
+    #     + Implemented priority-based failover capability to handle thin client failure
+    #     + Deployed solution to RKE2 cluster for integration with supported applications
 
 skill:
   show: true
