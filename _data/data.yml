@@ -23,7 +23,7 @@ contact:
   freelancer:              # username          | https://www.freelancer.com/u/username
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Summary
   description: |
@@ -75,16 +75,16 @@ project:
   title: Projects
   description: 
   items:
-    - name: Software Defined Networking
+    - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
       tags: Georgia Tech
       date: 2024
       description: |
-        + Utilized mininet APIs to programmatically deploy network topologies dynamically
-        + Implemented SDN Controller using os-ken framework, Open vSwitch, and OpenFlow
-        + Employed dynamic network topology discovery for the SDN Controller using os-ken event APIs
-        + Designed various SDN routing algorithms to optimize network traffic, including shortest path, widest path, proactive rules, and proactive redistribution
-        + Implemented handling for switches and links going down
+        + Utilized mininet APIs to programmatically deploy network topologies
+        + Used os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
+        + Incorporated dynamic network topology discovery for the SDN Controller using os-ken event APIs
+        + Designed various SDN routing algorithms to optimize network traffic based on available statistics
+        + Implemented handling for runtime topology changes
         
     - name: Infrastructure Monitoring Application
       link: 
@@ -136,7 +136,7 @@ skill:
   order: 2
   title: Skills
   description: |
-    C, C++, gRPC, Linux, Virtualization, Containerization, Golang, RTI DDS, Bash, Software Defined Networking, CMake, Kubernetes, GitLab CI/CD, Ansible, Python, Model Based Systems Engineering (MBSE)
+    C, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), Python, Docker, Golang, RTI DDS, Bash, Software Defined Networking, Kubernetes, GitLab CI/CD, Ansible
 
 
 education:
@@ -148,15 +148,14 @@ education:
     - institution: Georgia Institute of Technology
       link: 
       date: 2023 - Present
-      major: Computer Science - Computing Systems Specialization
+      major: M.S. in Computer Science - Computing Systems Specialization (4.0 GPA)
       degree: Master
 
     - institution: University of Virginia
       link:
       date: 2015 - 2019
-      major: Computer Engineering
+      major: B.S. in Computer Engineering
       degree: Bachelor
-      description: 
 
 certificate:
   show: false
