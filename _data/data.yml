@@ -141,7 +141,7 @@ skill:
 
 education:
   show: true
-  order: 3
+  order: 1
   title: Education
   description:   
   items:
