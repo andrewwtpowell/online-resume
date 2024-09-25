@@ -72,7 +72,7 @@ experience:
 
 project:
   show: true
-  order: 4
+  order: 5
   title: Projects
   description: 
   items:
@@ -134,7 +134,7 @@ project:
 
 skill:
   show: true
-  order: 5
+  order: 4
   title: Skills
   description: |
     C, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), Python, Docker, Golang, RTI DDS, Bash, Software Defined Networking, Kubernetes, GitLab CI/CD, Ansible
