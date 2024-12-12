@@ -43,16 +43,16 @@
     .basic {
         .header {
             .name {
-                font-size: 6pt !important;
+                font-size: 16pt !important; // Affects name size
             }
             .title {
-                font-size: 14pt !important;
+                font-size: 4pt !important;
             }
         }
     }
 
     .footer {
         display: none !important;
-        font-size: 10pt !important;
+        font-size: 6pt !important;
     }
 }
