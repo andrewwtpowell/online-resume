@@ -150,7 +150,7 @@ skill:
   order: 4
   title: Skills
   description: |
-    Golang, C, gRPC, Linux (RHEL, Ubuntu, Alpine), C++, Python, Docker, Golang, Bash, Software Defined Networking, Kubernetes, GitLab CI/CD, Ansible, Microsoft Azure
+    Golang, C, gRPC, Linux (RHEL, Ubuntu, Alpine), C++, Python, Docker, Bash, SDN, Kubernetes, GitLab CI/CD, Ansible, Azure
 
 
 education:
