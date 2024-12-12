@@ -4,7 +4,7 @@
     }
 
     body {
-        font-size: 10pt !important;
+        font-size: 6pt !important;
         background: $wrapper-color !important;
     }
 
@@ -35,7 +35,7 @@
                 font-size: 12pt !important; // No affect on print format
             }
             h2 {
-                font-size: 6pt !important; // No affect on print format
+                font-size: 12pt !important; // Affects section titles
             }
         }
     }
@@ -53,6 +53,6 @@
 
     .footer {
         display: none !important;
-        font-size: 6pt !important;
+        font-size: 6pt !important; // No affect on print format
     }
 }
