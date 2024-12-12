@@ -81,9 +81,9 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Created serverless application deployed in Azure that provides users data on their applications carbon impact based on where their Azure applications are deployed
+        + Created serverless utility providing users data on their Azure application's carbon impact based on where the application is deployed
         + Utilized Azure Functions for serverless design
-        + Stored data in Azure Cosmos DB
+        + Incorporated Azure Cosmos DB for data storage
         + Interacted with third-party API for carbon emission data
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
         + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
@@ -103,11 +103,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Utilized mininet APIs to programmatically deploy network topologies
+        + Utilized mininet API to programmatically deploy network topologies
         + Used os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
-        + Incorporated dynamic network topology discovery for the SDN Controller using os-ken event APIs
+        + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
         + Designed various SDN routing algorithms to optimize network traffic based on available statistics
-        + Implemented handling for runtime topology changes
+        + Implemented handling for topology changes occurring during runtime
         
     # - name: Infrastructure Monitoring Application
     #   link: 
@@ -128,10 +128,10 @@ project:
     - name: Distributed File System
       link: # https://github.gatech.edu/apowell83/dfs
       tags: Georgia Tech
-      date: 2023
+      date: 2024
       description: |
-        + Implemented a DFS with weakly consistent client-side caching using Golang and gRPC
-        + Used synchronous and asynchronous gRPC APIs to handle client-server communications
+        + Implemented a DFS with weakly consistent client-side caching written in Golang
+        + Used gRPC to handle client-server communications
         + Supported fetching, storing, locking, and listing files between server and clients
         + Implemented automatic file synchronization between server and clients from mounted filesystem directories
 
