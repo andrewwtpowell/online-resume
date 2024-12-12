@@ -4,7 +4,7 @@
     }
 
     body {
-        font-size: 10pt !important; // Affects all text other than header and section titles
+        font-size: 8pt !important; // Affects all text other than header and section titles
         background: $wrapper-color !important;
     }
 
@@ -32,10 +32,10 @@
         box-shadow: none !important;
         section {
             .section-title {
-                font-size: 12pt !important; // No affect on print format
+                font-size: 14pt !important; // No affect on print format
             }
             h2 {
-                font-size: 12pt !important; // Affects section titles
+                font-size: 14pt !important; // Affects section titles
             }
         }
     }
