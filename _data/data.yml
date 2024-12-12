@@ -42,11 +42,11 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Designed common service architecture and interfaces to support downstream user needs
+        + Designed resource-oriented infrastructure monitoring service API to support downstream user needs
         + Implemented Remote Display Server supporting simultaneous display of multiple remote applications
         + Deployed prototype services to Kubernetes cluster
         + Prototyped infrastructure monitoring service using C++, RTI DDS, and third party APIs
-        + Performed trade studies to identify key solutions for service design, time synchronization, and container support
+        + Performed trade studies to identify key solutions for platform service design, time synchronization, and container support
 
     #+ Led requirements definition and system design activities
 
@@ -76,6 +76,28 @@ project:
   title: Projects
   description: 
   items:
+
+    - name: Carbon Aware Computing Application
+      tags: Georgia Tech
+      date: 2024
+      description: |
+        + Created serverless application deployed in Azure that provides users data on their applications carbon impact based on where their Azure applications are deployed
+        + Utilized Azure Functions for serverless design
+        + Stored data in Azure Cosmos DB
+        + Interacted with third-party API for carbon emission data
+        + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
+        + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
+
+    - name: MapReduce Framework
+      link: # https://github.gatech.edu/apowell83/mapreduce
+      tags: Georgia Tech
+      date: 2024
+      description: |
+        + Implemented the MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
+        + Incorporated master node failure handling using checkpointing via etcd
+        + Enhanced worker performance using Golang's concurrency model
+        + Tested framework using word count algorithm on 1 GB+ dataset of files, completing in under 7 minutes
+
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
       tags: Georgia Tech
@@ -94,15 +116,6 @@ project:
     #   description: |
     #     + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
     #     + Leveraged RTI DDS to publish current status to subscribers on the network
-
-    - name: MapReduce Framework
-      link: # https://github.gatech.edu/apowell83/mapreduce
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Implemented the MapReduce Framework using C++ and gRPC
-        + Incorporated failure handling for failed workers, as well as lagging workers
-        + Tested implementation against large data set to verify accuracy and performance
 
     #- name: Distributed Ecommerce Service
     #  link: https://github.gatech.edu/apowell83/ecommerce-service
@@ -137,7 +150,7 @@ skill:
   order: 4
   title: Skills
   description: |
-    C, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), Python, Docker, Golang, RTI DDS, Bash, Software Defined Networking, Kubernetes, GitLab CI/CD, Ansible
+    Golang, C, gRPC, Linux (RHEL, Ubuntu, Alpine), C++, Python, Docker, Golang, Bash, Software Defined Networking, Kubernetes, GitLab CI/CD, Ansible, Microsoft Azure
 
 
 education:
