@@ -32,7 +32,7 @@
         box-shadow: none !important;
         section {
             .section-title {
-                font-size: 12pt !important;
+                font-size: 12pt !important; // No affect on print format
             }
             h2 {
                 font-size: 12pt !important; // No affect on print format
@@ -43,7 +43,7 @@
     .basic {
         .header {
             .name {
-                font-size: 16pt !important;
+                font-size: 6pt !important;
             }
             .title {
                 font-size: 14pt !important;
