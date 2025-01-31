@@ -91,7 +91,7 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Developed distributed, multi-threaded MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
+        + Developed distributed, multi-threaded MapReduce Framework deployed in AKS using Golang, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithm and dataset to use within framework
@@ -124,14 +124,14 @@ project:
     #    + Implemented service that gathers and communicates product vendor bids based on client requests
     #    + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
-    - name: Distributed File System
-      link: # https://github.gatech.edu/apowell83/dfs
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Implemented a Distributed File System in Golang with weakly consistent client-side caching
-        + Developed fetching, storing, locking, and listing file RPCs between servers and clients
-        + Implemented automatic file synchronization between servers and clients via mounted filesystem directories
+    # - name: Distributed File System
+    #   link: # https://github.gatech.edu/apowell83/dfs
+    #   tags: Georgia Tech
+    #   date: 2024
+    #   description: |
+    #     + Implemented a Distributed File System in Golang with weakly consistent client-side caching
+    #     + Developed fetching, storing, locking, and listing file RPCs between servers and clients
+    #     + Implemented automatic file synchronization between servers and clients via mounted filesystem directories
 
     # - name: Remote Display Server
     #   link:
@@ -157,21 +157,28 @@ skill:
         - C
         - Python
         - Bash
+        - awk
     - name: DevOps & Infrastructure
       item: 
         - GitLab CI/CD
         - Docker
-        - Kubernetes
+        - KVM
         - Ansible
     - name: Cloud Technologies
       item: 
         - Azure (Kubernetes Service, Blob Storage, Functions, Cosmos DB)
-    - name: Networking & Distributed Systems
+    - name: Distributed Systems
       item: 
+        - Kubernetes
         - gRPC
+        - etcd
+        - RTI DDS
+        - MPI
+    - name: Networking
+        - Software Defined Networking
         - Open vSwitch
         - OpenFlow
-        - etcd
+        - Network Function Virtualization
     - name: Operating Systems
       item:
         - Linux (RHEL, Ubuntu, Alpine)
