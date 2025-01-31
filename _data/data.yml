@@ -147,8 +147,17 @@ skill:
   show: true
   order: 6
   title: Skills
-  description: |
-    Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
+  # description: |
+  #   Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
+  items:
+    - name: Programming Languages
+      description: Golang, C++, C, Python, Bash
+    - name: DevOps & Infrastructure
+      description: Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, Kubernetes, Ansible
+    - name: Cloud Technologies
+      description: Azure (Kubernetes Service, Blob Storage, Functions, Cosmos DB)
+    - name: Networking & Distributed Systems
+      description: gRPC, Open vSwitch, OpenFlow, etcd
 
 
 education:
