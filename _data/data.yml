@@ -46,7 +46,7 @@ experience:
         + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
         + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
         + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
-        + Performed trade studies to identify key solutions related to infrastructure service design, server time synchronization, and container runtime
+        + Executed trade studies to identify solutions related to container runtime, infrastructure service design, and server time synchronization
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
@@ -92,7 +92,7 @@ project:
       date: 2024
       description: |
         + Developed distributed, multi-threaded MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
-        + Implemented master node failure handling using etcd to ensure long-running data processing would not be affected by node failures
+        + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithm and dataset to use within framework
         + Using a user-provided word count algorithm, processed 1 GB+ dataset of files in under 7 minutes
@@ -105,7 +105,7 @@ project:
         + Utilized Python Mininet API to programmatically deploy network topologies
         + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
-        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to optimize network traffic based on latency and bandwidth metrics
+        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Implemented handling for dynamic topology changes during runtime
         
     # - name: Infrastructure Monitoring Application
