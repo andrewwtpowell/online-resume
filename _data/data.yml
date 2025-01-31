@@ -44,11 +44,11 @@ experience:
       description: |
         + Designed resource-oriented service API to support downstream user needs
         + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
-        + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably
-        + Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
-        + Setup GitLab CI/CD Pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
-        + Performed trade studies to identify key solutions for platform service design, server time synchronization, and container runtime
+        + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
+        + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
+        + Performed trade studies to identify key solutions related to infrastructure service design, server time synchronization, and container runtime
 
+      #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
       link: 
       tags: Full-time
@@ -57,8 +57,8 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Designed web application UI using Python Flask, htmx, and CSS
-        + Implemented CI/CD pipeline and Ansible playbooks to automate system deployment
+        + Modernized legacy application to a web application using Python Flask, htmx, and css
+        + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
     #- company: INVENSITY Technology Consulting
     #  link:
@@ -91,7 +91,7 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented distributed, multi-threaded MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
+        + Developed distributed, multi-threaded MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing would not be affected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithm and dataset to use within framework
@@ -102,11 +102,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Utilized mininet API to programmatically deploy network topologies
+        + Utilized Python Mininet API to programmatically deploy network topologies
         + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
         + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to optimize network traffic based on latency and bandwidth metrics
-        + Implemented handling for dynamic topology changes occurring during runtime
+        + Implemented handling for dynamic topology changes during runtime
         
     # - name: Infrastructure Monitoring Application
     #   link: 
