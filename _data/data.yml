@@ -23,7 +23,7 @@ contact:
   freelancer:              # username          | https://www.freelancer.com/u/username
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Summary
   description: |
@@ -46,7 +46,7 @@ experience:
         + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
         + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
         + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
-        + Executed trade studies to identify solutions related to container runtime, infrastructure service design, and server time synchronization
+        + Presented solutions for container runtime, service design, and server time synchronization to product customer
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
@@ -57,7 +57,7 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Updated legacy application UI to use web app framework written in Python Flask, htmx, and css
+        + Modernized legacy UI witht Python Flask, htmx, and css
         + Improved portability of application using containers
         + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
@@ -158,29 +158,25 @@ skill:
         - C
         - Python
         - Bash
-        - awk
-    - name: DevOps & Infrastructure
+    - name: Cloud & DevOps
       item: 
         - GitLab CI/CD
         - Docker
+        - Azure (Blob Storage, Functions, Cosmos DB)
         - KVM
         - Ansible
-    - name: Cloud Technologies
-      item: 
-        - Azure (Kubernetes Service, Blob Storage, Functions, Cosmos DB)
     - name: Distributed Systems
       item: 
         - Kubernetes
         - gRPC
         - etcd
         - RTI DDS
-        - MPI
-    - name: Networking
-      item:
-        - Software Defined Networking
-        - Open vSwitch
-        - OpenFlow
-        - Network Function Virtualization
+    # - name: Networking
+    #   item:
+    #     - Software Defined Networking
+    #     - Open vSwitch
+    #     - OpenFlow
+    #     - Network Function Virtualization
     - name: Operating Systems
       item:
         - Linux (RHEL, Ubuntu, Alpine)
