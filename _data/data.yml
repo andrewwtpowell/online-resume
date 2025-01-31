@@ -23,16 +23,16 @@ contact:
   freelancer:              # username          | https://www.freelancer.com/u/username
 
 profile:
-  show: false
+  show: true
   order: 1
   title: Summary
   description: |
-    Senior Software Engineer specializing in Systems Programming and Computing Infrastructure. I am passionate about developing reliable, scalable systems using C, C++, Go, and Python that efficiently utilize available resources while meeting customer needs. My technical skills work in concert with my leadership capabilities to improve overall team productivity and product efficacy.
+    Senior Software Engineer with expertise in distributed systems, infrastructure development, and DevOps automation. Passionate about designing scalable, fault-tolerant software solutions. Proficient in Golang, C++, Linux, and Kubernetes.
 
 experience:
   show: true
   order: 3
-  title: Work Experience
+  title: Professional Experience
   description: 
   items:
     - company: General Dynamics Mission Systems
@@ -57,7 +57,8 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Modernized legacy application to a web application using Python Flask, htmx, and css
+        + Updated legacy application UI to use web app framework written in Python Flask, htmx, and css
+        + Improved portability of application using containers
         + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
     #- company: INVENSITY Technology Consulting
@@ -72,7 +73,7 @@ experience:
 project:
   show: true
   order: 5
-  title: Projects
+  title: Technical Projects
   description: 
   items:
 
@@ -80,7 +81,7 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Created serverless utility providing users data on their Azure application's carbon impact based on where the application is deployed
+        + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
         + Utilized Azure Functions for serverless design and Cosmos DB for data storage
         + Integrated third-party API for retrieving carbon emission data
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
@@ -95,7 +96,7 @@ project:
         + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithm and dataset to use within framework
-        + Using a user-provided word count algorithm, processed 1 GB+ dataset of files in under 7 minutes
+        + Optimized framework to process a 1GB+ dataset in under 7 minutes, improving execution time by over 50% over baseline implementations
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
@@ -146,7 +147,7 @@ project:
 skill:
   show: true
   order: 6
-  title: Skills
+  title: Technical Skills
   # description: |
   #   Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
   groups:
