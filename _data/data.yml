@@ -1,6 +1,6 @@
 basic:
   name: Andrew Powell
-  title: Senior Software Engineer
+  title: Senior Software Engineer | Distributed Systems | DevOps Automation | Infrastructure Development
   avatar:
     show: false
     path: /assets/images/profile.png # avatar file path
@@ -46,7 +46,7 @@ experience:
         + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
         + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
         + Presented solutions for container runtime, service design, and server time synchronization to product customer
-        + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
+        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
