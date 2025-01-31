@@ -31,7 +31,7 @@ profile:
 
 experience:
   show: true
-  order: 2
+  order: 3
   title: Work Experience
   description: 
   items:
@@ -42,13 +42,12 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Designed resource-oriented infrastructure monitoring service API to support downstream user needs
-        + Implemented Remote Display Server supporting simultaneous display of multiple remote applications
-        + Deployed prototype services to Kubernetes cluster
-        + Prototyped infrastructure monitoring service using C++, RTI DDS, and third party APIs
-        + Performed trade studies to identify key solutions for platform service design, time synchronization, and container support
-
-    #+ Led requirements definition and system design activities
+        + Designed resource-oriented service API to support downstream user needs
+        + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
+        + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably
+        + Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
+        + Setup GitLab CI/CD Pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
+        + Performed trade studies to identify key solutions for platform service design, server time synchronization, and container runtime
 
     - company: General Dynamics Mission Systems
       link: 
@@ -82,9 +81,8 @@ project:
       date: 2024
       description: |
         + Created serverless utility providing users data on their Azure application's carbon impact based on where the application is deployed
-        + Utilized Azure Functions for serverless design
-        + Incorporated Azure Cosmos DB for data storage
-        + Interacted with third-party API for carbon emission data
+        + Utilized Azure Functions for serverless design and Cosmos DB for data storage
+        + Integrated third-party API for retrieving carbon emission data
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
         + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
 
@@ -93,10 +91,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented the MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
-        + Incorporated master node failure handling using checkpointing via etcd
-        + Enhanced worker performance using Golang's concurrency model
-        + Tested framework using word count algorithm on 1 GB+ dataset of files, completing in under 7 minutes
+        + Implemented distributed, multi-threaded MapReduce Framework in AKS using Golang, gRPC, etcd, and Azure Blob Storage
+        + Implemented master node failure handling using etcd to ensure long-running data processing would not be affected by node failures
+        + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
+        + Created interface for users to provide data processing algorithm and dataset to use within framework
+        + Using a user-provided word count algorithm, processed 1 GB+ dataset of files in under 7 minutes
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
@@ -104,10 +103,10 @@ project:
       date: 2024
       description: |
         + Utilized mininet API to programmatically deploy network topologies
-        + Used os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
+        + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
-        + Designed various SDN routing algorithms to optimize network traffic based on available statistics
-        + Implemented handling for topology changes occurring during runtime
+        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to optimize network traffic based on latency and bandwidth metrics
+        + Implemented handling for dynamic topology changes occurring during runtime
         
     # - name: Infrastructure Monitoring Application
     #   link: 
@@ -147,15 +146,15 @@ project:
 
 skill:
   show: true
-  order: 4
+  order: 6
   title: Skills
   description: |
-    Golang, C, gRPC, Linux (RHEL, Ubuntu, Alpine), C++, Python, Docker, Bash, SDN, Kubernetes, GitLab CI/CD, Ansible, Azure
+    Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
 
 
 education:
   show: true
-  order: 3
+  order: 2
   title: Education
   description:   
   items:
