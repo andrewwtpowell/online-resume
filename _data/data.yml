@@ -175,6 +175,7 @@ skill:
         - RTI DDS
         - MPI
     - name: Networking
+      item:
         - Software Defined Networking
         - Open vSwitch
         - OpenFlow
