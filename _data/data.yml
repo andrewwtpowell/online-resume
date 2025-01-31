@@ -129,10 +129,9 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Implemented a DFS with weakly consistent client-side caching written in Golang
-        + Used gRPC to handle client-server communications
-        + Supported fetching, storing, locking, and listing files between server and clients
-        + Implemented automatic file synchronization between server and clients from mounted filesystem directories
+        + Implemented a Distributed File System in Golang with weakly consistent client-side caching
+        + Developed fetching, storing, locking, and listing file RPCs between servers and clients
+        + Implemented automatic file synchronization between servers and clients via mounted filesystem directories
 
     # - name: Remote Display Server
     #   link:
