@@ -45,8 +45,8 @@ experience:
         + Designed resource-oriented service API to support downstream user needs
         + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
         + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
-        + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
         + Presented solutions for container runtime, service design, and server time synchronization to product customer
+        + Setup GitLab CI/CD pipelines to automate static code analysis, unit testing, container builds, integration testing, and cluster deployment for infrastructure services
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
@@ -73,7 +73,7 @@ experience:
 project:
   show: true
   order: 5
-  title: Technical Projects
+  title: Projects
   description: 
   items:
 
@@ -106,8 +106,8 @@ project:
         + Utilized Python Mininet API to programmatically deploy network topologies
         + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
-        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Implemented handling for dynamic topology changes during runtime
+        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         
     # - name: Infrastructure Monitoring Application
     #   link: 
