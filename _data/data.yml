@@ -42,11 +42,12 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Designed resource-oriented service API to support downstream user needs
-        + Developed multi-threaded, fault tolerant infrastructure monitoring service in C++
-        + Utilized strategy and adapter patterns for service design to support multiple use cases interchangeably and promote code reusability
-        + Presented solutions for container runtime, service design, and server time synchronization to product customer
-        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment
+        + Led a team of five to modernize existing infrastructure, building a scalable, reliable platform
+        + Designed resource-oriented service APIs to support downstream user needs
+        + Developed multi-threaded, fault tolerant infrastructure services in C++
+        + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
+        + Presented solutions for container orchestration, service design, and server time synchronization to product customer
+        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment for infrastructure services
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
