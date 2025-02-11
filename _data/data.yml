@@ -93,11 +93,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Developed distributed, multi-threaded MapReduce Framework deployed in AKS using Golang, gRPC, etcd, and Azure Blob Storage
+        + Developed distributed, multi-threaded data processing framework deployed in AKS using Golang, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithm and dataset to use within framework
-        + Optimized framework to process a 1GB+ dataset in under 7 minutes, improving execution time by over 50% over baseline implementations
+        + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 50% over baseline implementations
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
