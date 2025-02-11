@@ -57,7 +57,7 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Modernized legacy UI witht Python Flask, htmx, and css
+        + Modernized legacy UI with Python Flask, htmx, and css
         + Improved portability of application using containers
         + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
