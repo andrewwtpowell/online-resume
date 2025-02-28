@@ -31,7 +31,7 @@ profile:
 
 experience:
   show: true
-  order: 3
+  order: 4
   title: Professional Experience
   description: 
   items:
@@ -42,12 +42,12 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Led a team of five to modernize existing infrastructure, building a scalable, reliable platform
+        + Led a team of five to modernize existing infrastructure, building a scalable, reliable platform utilized by various stakeholders
         + Designed resource-oriented service APIs to support downstream user needs
         + Developed multi-threaded, fault tolerant infrastructure services in C++
         + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
-        + Presented solutions for container orchestration, service design, and server time synchronization to product customer
-        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment for infrastructure services
+        + Presented solutions for container orchestration, service design, and server time synchronization to customer
+        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of infrastructure services
 
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
@@ -58,8 +58,8 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Modernized legacy UI with Python Flask, htmx, and css
-        + Improved portability of application using containers
+        + Modernized legacy UI, rewriting frontend application using Python Flask, htmx, and css
+        + Improved application portability using Docker containers
         + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
     #- company: INVENSITY Technology Consulting
@@ -73,7 +73,7 @@ experience:
 
 project:
   show: true
-  order: 5
+  order: 3
   title: Projects
   description: 
   items:
@@ -155,9 +155,9 @@ skill:
     - name: Programming Languages
       item: 
         - Golang
+        - Python
         - C++ 
         - C
-        - Python
         - Bash
     - name: Cloud & DevOps
       item: 
