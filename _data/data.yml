@@ -78,16 +78,6 @@ project:
   description: 
   items:
 
-    - name: Carbon Aware Computing Application
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
-        + Utilized Azure Functions for serverless design and Cosmos DB for data storage
-        + Integrated third-party API for retrieving carbon emission data
-        + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
-        + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
-
     - name: MapReduce Framework
       link: # https://github.gatech.edu/apowell83/mapreduce
       tags: Georgia Tech
@@ -109,6 +99,16 @@ project:
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
         + Implemented handling for dynamic topology changes during runtime
         + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
+
+    - name: Carbon Aware Computing Application
+      tags: Georgia Tech
+      date: 2024
+      description: |
+        + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
+        + Utilized Azure Functions for serverless design and Cosmos DB for data storage
+        + Integrated third-party API for retrieving carbon emission data
+        + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
+        + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
         
     # - name: Infrastructure Monitoring Application
     #   link: 
