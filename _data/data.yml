@@ -31,7 +31,7 @@ profile:
 
 experience:
   show: true
-  order: 4
+  order: 1
   title: Professional Experience
   description: 
   items:
@@ -75,7 +75,7 @@ experience:
 
 project:
   show: true
-  order: 3
+  order: 2
   title: Projects
   description: 
   items:
@@ -149,7 +149,7 @@ project:
 
 skill:
   show: true
-  order: 6
+  order: 3
   title: Technical Skills
   # description: |
   #   Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
@@ -186,7 +186,7 @@ skill:
 
 education:
   show: true
-  order: 2
+  order: 4
   title: Education
   description:   
   items:
