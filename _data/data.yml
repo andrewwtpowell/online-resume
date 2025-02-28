@@ -42,10 +42,10 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Developed distributed, multi-threaded, fault tolerant infrastructure services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
-        + Implemented service data ingestion capabilities, aggregating data from many lightweight distributed data collection agents
+        + Developed distributed, multi-threaded, fault tolerant backend services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
+        + Implemented service data ingestion capabilities, aggregating data from many lightweight distributed data collection agents and ensuring up-to-date data availability
         + Optimized data lookup speed through the creation of an in-memory graph database
-        + Designed and implemented scalable resource-oriented service APIs, supporting needs of 8 dependent systems simultaneously
+        + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems simultaneously
         + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
         + Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
         + Presented solutions for container orchestration, service design, and server time synchronization to customer
@@ -60,7 +60,7 @@ experience:
       location: Pittsfield, MA
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
-        + Modernized legacy UI, rewriting frontend application using Python Flask, htmx, and css
+        + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
         + Improved application portability using Docker containers
         + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
 
@@ -85,11 +85,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Developed distributed, multi-threaded data processing framework deployed in AKS using Golang, gRPC, etcd, and Azure Blob Storage
-        + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
+        + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Golang, gRPC, etcd, and Azure Blob Storage
+        + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithms and datasets to use within framework
-        + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 50% over baseline implementations
+        + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 65% compared to baseline implementations
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
@@ -97,10 +97,10 @@ project:
       date: 2024
       description: |
         + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
-        + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
+        + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
         + Implemented handling for dynamic topology changes during runtime
-        + Utilized Python Mininet API to programmatically deploy network topologies
-        + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
+        + Improved testing capabilities by programmatically deploying network topologies based on json configuration files
+        + Leveraged third-party APIs to program network switches in the topology consistent with configured routing algorithm
 
     - name: Carbon Aware Computing Application
       tags: Georgia Tech
@@ -161,6 +161,12 @@ skill:
         - C++ 
         - C
         - Bash
+    - name: Distributed Systems
+      item: 
+        - Kubernetes
+        - gRPC
+        - etcd
+        - Software Defined Networking
     - name: Cloud & DevOps
       item: 
         - GitLab CI/CD
@@ -168,12 +174,6 @@ skill:
         - Azure (Blob Storage, Functions, Cosmos DB)
         - KVM
         - Ansible
-    - name: Distributed Systems
-      item: 
-        - Kubernetes
-        - gRPC
-        - etcd
-        - RTI DDS
     # - name: Networking
     #   item:
     #     - Software Defined Networking
