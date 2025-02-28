@@ -42,10 +42,12 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
-        + Designed resource-oriented service APIs to support downstream user needs
-        + Developed multi-threaded, fault tolerant infrastructure services in C++
+        + Developed distributed, multi-threaded, fault tolerant infrastructure services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
+        + Implemented service data ingestion capabilities, aggregating data from many lightweight distributed data collection agents
+        + Optimized data lookup speed through the creation of an in-memory graph database
+        + Designed and implemented scalable resource-oriented service APIs, supporting needs of 8 dependent systems simultaneously
         + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
+        + Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
         + Presented solutions for container orchestration, service design, and server time synchronization to customer
         + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of infrastructure services
 
@@ -86,7 +88,7 @@ project:
         + Developed distributed, multi-threaded data processing framework deployed in AKS using Golang, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing is unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
-        + Created interface for users to provide data processing algorithm and dataset to use within framework
+        + Created interface for users to provide data processing algorithms and datasets to use within framework
         + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 50% over baseline implementations
 
     - name: Software Defined Network Controller
@@ -94,11 +96,11 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Utilized Python Mininet API to programmatically deploy network topologies
-        + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
+        + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Incorporated dynamic network topology discovery for the SDN Controller using the os-ken event API
         + Implemented handling for dynamic topology changes during runtime
-        + Designed various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
+        + Utilized Python Mininet API to programmatically deploy network topologies
+        + Used Python os-ken framework, Open vSwitch, and OpenFlow to program network switches in the topology
 
     - name: Carbon Aware Computing Application
       tags: Georgia Tech
