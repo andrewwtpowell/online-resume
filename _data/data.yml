@@ -42,7 +42,7 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Led a team of five to modernize existing infrastructure, building a scalable, reliable platform utilized by various stakeholders
+        + Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
         + Designed resource-oriented service APIs to support downstream user needs
         + Developed multi-threaded, fault tolerant infrastructure services in C++
         + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
