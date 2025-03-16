@@ -156,8 +156,8 @@ skill:
   groups:
     - name: Programming Languages
       item: 
-        - C++ 
         - Golang
+        - C++ 
         - Python
         - C
         - Bash
