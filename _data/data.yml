@@ -43,14 +43,14 @@ experience:
       location: Remote - Denver, CO
       description: |
         + Developed distributed, multi-threaded, fault tolerant backend services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
-        + Implemented service data ingestion capabilities, aggregating data from many lightweight distributed data collection agents and ensuring up-to-date data availability
-        + Optimized data lookup speed through the creation of an in-memory graph database
-        + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems simultaneously
+        + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
+        + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
-        + Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
         + Presented solutions for container orchestration, service design, and server time synchronization to customer
         + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of infrastructure services
 
+      #+ Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
+      #+ Optimized data lookup speed through the creation of an in-memory graph database
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
       link: 
