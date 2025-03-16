@@ -156,9 +156,9 @@ skill:
   groups:
     - name: Programming Languages
       item: 
+        - C++ 
         - Golang
         - Python
-        - C++ 
         - C
         - Bash
     - name: Distributed Systems
