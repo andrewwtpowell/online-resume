@@ -45,10 +45,10 @@ experience:
         + Developed distributed, multi-threaded, fault tolerant backend services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
         + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
-        + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
         + Presented solutions for container orchestration, service design, and server time synchronization to customer
         + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of infrastructure services
 
+      #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
       #+ Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
       #+ Optimized data lookup speed through the creation of an in-memory graph database
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
@@ -99,8 +99,8 @@ project:
         + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
         + Implemented handling for dynamic topology changes during runtime
-        + Improved testing capabilities by programmatically deploying network topologies based on json configuration files
         + Leveraged third-party APIs to program network switches in the topology consistent with configured routing algorithm
+      #+ Improved testing capabilities by programmatically deploying network topologies based on json configuration files
 
     - name: Carbon Aware Computing Application
       tags: Georgia Tech
@@ -108,9 +108,9 @@ project:
       description: |
         + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
         + Utilized Azure Functions for serverless design and Cosmos DB for data storage
-        + Integrated third-party API for retrieving carbon emission data
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
         + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
+      #+ Integrated third-party API for retrieving carbon emission data
         
     # - name: Infrastructure Monitoring Application
     #   link: 
