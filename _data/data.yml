@@ -100,7 +100,8 @@ project:
         + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
         + Implemented handling for dynamic topology changes during runtime
         + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
-        + Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
+
+      #+ Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
 
     - name: Carbon Aware Computing Application
       tags: Georgia Tech
