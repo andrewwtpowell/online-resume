@@ -42,11 +42,11 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Developed distributed, multi-threaded, fault tolerant backend services in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
+        + Developed distributed, multi-threaded, fault tolerant backend services capable of handling node failures while maintaining high performance, reducing service downtime by 60%
         + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
-        + Presented solutions for container orchestration, service design, and server time synchronization to customer
-        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of infrastructure services
+        + Presented solutions for container orchestration, service design, and server time synchronization to customers
+        + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of backend services
 
       #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
       #+ Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
@@ -85,7 +85,7 @@ project:
       tags: Georgia Tech
       date: 2024
       description: |
-        + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Golang, gRPC, etcd, and Azure Blob Storage
+        + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Go, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
         + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithms and datasets to use within framework
@@ -156,9 +156,9 @@ skill:
   groups:
     - name: Programming Languages
       item: 
+        - Golang
         - C++ 
         - Python
-        - Golang
         - C
         - Bash
     - name: Distributed Systems
