@@ -42,14 +42,14 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Developed distributed, multi-threaded, fault tolerant backend services capable of handling node failures while maintaining high performance, reducing service downtime by 60%
+        + Developed distributed, fault-tolerant backend services capable of handling node failures while maintaining high performance, reducing service downtime by 60%
         + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Presented solutions for container orchestration, service design, and server time synchronization to customers
         + Created GitLab CI/CD pipelines to automate static code analysis, building, testing, and deployment of backend services
 
       #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
-      #+ Led a team of five to modernize existing infrastructure, building a scalable, reliable private cloud platform
+      #+ Led a team of five in building a scalable, reliable cloud platform 
       #+ Optimized data lookup speed through the creation of an in-memory graph database
       #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
@@ -99,8 +99,8 @@ project:
         + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
         + Implemented handling for dynamic topology changes during runtime
-        + Leveraged third-party APIs to program network switches in the topology consistent with configured routing algorithm
-      #+ Improved testing capabilities by programmatically deploying network topologies based on json configuration files
+        + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
+        + Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
 
     - name: Carbon Aware Computing Application
       tags: Georgia Tech
@@ -110,7 +110,7 @@ project:
         + Utilized Azure Functions for serverless design and Cosmos DB for data storage
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
         + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
-      #+ Integrated third-party API for retrieving carbon emission data
+        + Integrated third-party API for retrieving carbon emission data
         
     # - name: Infrastructure Monitoring Application
     #   link: 
