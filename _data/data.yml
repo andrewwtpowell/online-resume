@@ -87,7 +87,7 @@ project:
       description: |
         + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Go, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
-        + Leveraged Golang concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
+        + Leveraged Go concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithms and datasets to use within framework
         + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 65% compared to baseline implementations
 
@@ -156,7 +156,7 @@ skill:
   groups:
     - name: Programming Languages
       item: 
-        - Golang
+        - Go
         - C++ 
         - Python
         - C
