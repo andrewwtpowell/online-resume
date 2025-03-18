@@ -110,7 +110,7 @@ project:
         + Utilized Azure Functions for serverless design and Cosmos DB for data storage
         + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
         + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
-        + Integrated third-party API for retrieving carbon emission data
+        #+ Integrated third-party API for retrieving carbon emission data
         
     # - name: Infrastructure Monitoring Application
     #   link: 
