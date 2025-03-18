@@ -13,15 +13,19 @@
     }
 
     h1, h2, h3, h4, h5, h6, img {
-        break-after: avoid !important;
+        break-before: avoid !important;
         break-inside: avoid !important;
+        break-after: avoid !important;
     }
 
     ul, ol {
         break-before: avoid !important;
+        break-after: avoid !important;
     }
 
     a, blockquote, pre {
+        break-before: avoid !important;
+        break-after: avoid !important;
         break-inside: avoid !important;
     }
 
@@ -35,7 +39,7 @@
                 font-size: 14pt !important; // No affect on print format
             }
             h2 {
-                font-size: 14pt !important; // Affects section titles
+                font-size: 12pt !important; // Affects section titles
             }
         }
     }
