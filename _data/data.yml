@@ -171,9 +171,9 @@ skill:
         - Software Defined Networking
     - name: Cloud & DevOps
       item: 
-        - GitLab CI/CD
-        - Docker
         - Azure (Blob Storage, Functions, Cosmos DB)
+        - Docker
+        - GitLab CI/CD
         - KVM
         - Ansible
     # - name: Networking
