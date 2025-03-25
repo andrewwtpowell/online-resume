@@ -196,6 +196,8 @@ skill:
     - name: Operating Systems
       item:
         - Linux (RHEL, Ubuntu, Alpine)
+        - Green Hills INTEGRITY RTOS
+        - VxWorks
 
 education:
   show: true
