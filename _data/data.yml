@@ -42,7 +42,7 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Developed distributed, fault-tolerant backend services capable of handling node failures while maintaining high performance, reducing service downtime by 60%
+        + Developed distributed, fault-tolerant backend services written in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
         + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Presented solutions for container orchestration, service design, and server time synchronization to customers
@@ -158,24 +158,35 @@ skill:
   groups:
     - name: Programming Languages
       item: 
-        - Go
         - C++ 
-        - Python
         - C
-        - Bash
-    - name: Distributed Systems
-      item: 
-        - Kubernetes
-        - gRPC
-        - etcd
-        - Software Defined Networking
-    - name: Cloud & DevOps
-      item: 
-        - Azure (Blob Storage, Functions, Cosmos DB)
+        - Python
+        - Go
+    - name: Systems Engineering
+      item:
+        - MBSE
+        - Cameo
+        - UML Design
+    #- name: Distributed Systems
+    #  item: 
+    #    - Kubernetes
+    #    - gRPC
+    #    - etcd
+    #    - Software Defined Networking
+    - name: Build Tools & DevOps
+      item:
         - Docker
-        - GitLab CI/CD
-        - KVM
+        - Gitlab CI/CD
+        - CMake
+        - Make
         - Ansible
+    # - name: Cloud & DevOps
+    #   item: 
+    #     - Azure (Blob Storage, Functions, Cosmos DB)
+    #     - Docker
+    #     - GitLab CI/CD
+    #     - KVM
+    #     - Ansible
     # - name: Networking
     #   item:
     #     - Software Defined Networking
