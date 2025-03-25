@@ -164,7 +164,7 @@ skill:
         - Go
     - name: Systems Engineering
       item:
-        - MBSE
+        - Model-Based Systems Engineering
         - Cameo
         - UML Design
     #- name: Distributed Systems
