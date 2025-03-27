@@ -163,7 +163,7 @@ skill:
         - C
         - Python
         - Go
-    - name: Build Tools & DevOps
+    - name: DevOps & Build Tools
       item:
         - Docker
         - Kubernetes
