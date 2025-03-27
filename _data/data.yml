@@ -162,6 +162,19 @@ skill:
         - C
         - Python
         - Go
+    - name: Build Tools & DevOps
+      item:
+        - Docker
+        - Kubernetes
+        - Gitlab CI/CD
+        - CMake
+        - Make
+        - Ansible
+    - name: Operating Systems
+      item:
+        - Linux (RHEL, Ubuntu, Alpine)
+        - Green Hills INTEGRITY RTOS
+        - VxWorks
     - name: Systems Engineering
       item:
         - Model-Based Systems Engineering
@@ -173,13 +186,6 @@ skill:
     #    - gRPC
     #    - etcd
     #    - Software Defined Networking
-    - name: Build Tools & DevOps
-      item:
-        - Docker
-        - Gitlab CI/CD
-        - CMake
-        - Make
-        - Ansible
     # - name: Cloud & DevOps
     #   item: 
     #     - Azure (Blob Storage, Functions, Cosmos DB)
@@ -193,11 +199,6 @@ skill:
     #     - Open vSwitch
     #     - OpenFlow
     #     - Network Function Virtualization
-    - name: Operating Systems
-      item:
-        - Linux (RHEL, Ubuntu, Alpine)
-        - Green Hills INTEGRITY RTOS
-        - VxWorks
 
 education:
   show: true
