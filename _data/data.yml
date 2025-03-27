@@ -160,8 +160,8 @@ skill:
     - name: Programming Languages
       item: 
         - C++ 
-        - C
         - Python
+        - C
         - Go
     - name: DevOps & Build Tools
       item:
