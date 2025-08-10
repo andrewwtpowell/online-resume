@@ -46,7 +46,7 @@ experience:
         + Completed prototype service within first 3 weeks of joining team, ensuring demonstration was ready for large management audience
         + Leveraged multiple UAV messaging standards (OMS and STANAG4586) to provide adaptive control capabilities
         + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
-        + Generated robust build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
+        + Created robust CMake build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
 
       #+ Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
         
