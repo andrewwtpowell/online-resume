@@ -62,8 +62,8 @@ experience:
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Presented solutions for container orchestration, service design, and server time synchronization to customers
         + Created GitLab CI/CD pipelines to automate building, testing, static code analysis, and deployment of backend services
-        + Led software architecture and design activities for backend services
 
+      #+ Led software architecture and design activities for backend services
       #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
       #+ Led a team of five in building a scalable, reliable cloud platform 
       #+ Optimized data lookup speed through the creation of an in-memory graph database
