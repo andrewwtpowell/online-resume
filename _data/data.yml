@@ -37,8 +37,24 @@ experience:
   items:
     - company: General Dynamics Mission Systems
       link: 
+      tags: 
+        - Contract
+        - Full-time
+      date: 2025 - Present
+      role: Software Engineer III
+      location: Englewood, CO
+      description: |
+        + Developed Adaptive Command and Control System for Unmanned Air Vehicles using C# and C++
+        + Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
+        + Completed prototype service within first 3 weeks of joining team, ensuring the work product was ready for demonstration to large management audience
+        + Leveraged multiple UAV messaging standards (OMS and STANAG4586) to provide adaptive control capabilities
+        + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
+        + Generated robust build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
+
+    - company: General Dynamics Mission Systems
+      link: 
       tags: Full-time
-      date: 2023 - Present
+      date: 2023 - 2025
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
@@ -96,7 +112,7 @@ project:
       link: # https://github.gatech.edu/apowell83/sdn-project
       tags: Georgia Tech
       date: 2024
-      description: |
+      description: 
         + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
         + Implemented handling for dynamic topology changes during runtime
@@ -163,13 +179,16 @@ skill:
         - Python
         - C
         - Go
+        - C#
     - name: DevOps & Build Tools
       item:
         - Docker
         - Kubernetes
         - Gitlab CI/CD
+        - Github Actions
         - CMake
-        - Make
+        - Conan
+        - Sonarqube
         - Ansible
     - name: Operating Systems
       item:
@@ -181,6 +200,7 @@ skill:
         - Model-Based Systems Engineering
         - Cameo
         - UML Design
+        - SysML Design
     #- name: Distributed Systems
     #  item: 
     #    - Kubernetes
