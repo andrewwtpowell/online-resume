@@ -35,11 +35,9 @@ experience:
   title: Professional Experience
   description: 
   items:
-    - company: General Dynamics Mission Systems
+    - company: Sierra Nevada Corporation
       link: 
-      tags: 
-        - Contract
-        - Full-time
+      tags: Contract, Full-time
       date: 2025 - Present
       role: Software Engineer III
       location: Englewood, CO
