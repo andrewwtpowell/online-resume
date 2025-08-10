@@ -118,16 +118,16 @@ project:
 
       #+ Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
 
-    - name: Carbon Aware Computing Application
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
-        + Utilized Azure Functions for serverless design and Cosmos DB for data storage
-        + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
-        + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
+    #- name: Carbon Aware Computing Application
+    #  tags: Georgia Tech
+    #  date: 2024
+    #  description: |
+    #    + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
+    #    + Utilized Azure Functions for serverless design and Cosmos DB for data storage
+    #    + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
+    #    + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
 
-      #+ Integrated third-party API for retrieving carbon emission data
+    #  #+ Integrated third-party API for retrieving carbon emission data
         
     # - name: Infrastructure Monitoring Application
     #   link: 
