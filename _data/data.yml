@@ -42,13 +42,14 @@ experience:
       role: Software Engineer III
       location: Englewood, CO
       description: |
-        + Developed Adaptive Command and Control System for Unmanned Air Vehicles using C# and C++
-        + Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
+        + Developed Adaptive Command and Control System for Unmanned Air Vehicles using C++ and C#
         + Completed prototype service within first 3 weeks of joining team, ensuring the work product was ready for demonstration to large management audience
         + Leveraged multiple UAV messaging standards (OMS and STANAG4586) to provide adaptive control capabilities
         + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
         + Generated robust build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
 
+      #+ Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
+        
     - company: General Dynamics Mission Systems
       link: 
       tags: Full-time
