@@ -77,8 +77,7 @@ experience:
       description: |
         + Led software development efforts for modernization of shipboard diagnostic tool
         + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
-        + Improved application portability using Docker containers
-        + Implemented GitLab CI/CD pipeline and Ansible playbooks to automate system deployment
+        + Implemented GitLab CI/CD pipeline with Ansible playbooks and Docker container generation to automate system deployment
 
     #- company: INVENSITY Technology Consulting
     #  link:
