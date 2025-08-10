@@ -60,9 +60,9 @@ experience:
         + Developed distributed, fault-tolerant backend services written in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
         + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
-        + Presented solutions for container orchestration, service design, and server time synchronization to customers
         + Created GitLab CI/CD pipelines to automate building, testing, static code analysis, and deployment of backend services
 
+      #+ Presented solutions for container orchestration, service design, and server time synchronization to customers
       #+ Led software architecture and design activities for backend services
       #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
       #+ Led a team of five in building a scalable, reliable cloud platform 
@@ -104,7 +104,7 @@ project:
         + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
         + Leveraged Go concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
         + Created interface for users to provide data processing algorithms and datasets to use within framework
-        + Optimized framework to process a 1GB+ dataset in under 5 minutes, improving execution time by over 65% compared to baseline implementations
+        + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
