@@ -142,7 +142,7 @@ small {
       }
 
       .project-name {
-        font-size: $huge-font-size;
+        font-size: $large-font-size;
       }
       .institution {
         font-size: $large-font-size;
@@ -155,7 +155,8 @@ small {
       }
 
       .role {
-        font-size: $large-font-size;
+        font-size: $middle-font-size;
+        font-style: italic;
       }
       .major,
       .issuer,
@@ -198,7 +199,7 @@ small {
 
       .title {
         color: $text-second-color;
-        font-size: $middle-font-size;
+        font-size: $large-font-size;
         font-weight: $base-font-weight;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
