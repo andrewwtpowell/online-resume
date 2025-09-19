@@ -79,6 +79,22 @@ experience:
         + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
         + Implemented GitLab CI/CD pipeline with Ansible playbooks and Docker container generation to automate system deployment
 
+    - company: American Axle & Manufacturing
+      tags: Contract
+      date: 2019 - 2020
+      role: Software Engineer
+      location: Detroit, MI
+      # description: |
+      #   + TBD
+
+    - company: Fractal Industries
+      tags: Intern
+      date: 2019 - 2019
+      role: Software Engineer
+      location: Reston, VA
+      # description: |
+      #   + TBD
+      
     #- company: INVENSITY Technology Consulting
     #  link:
     #  tags: Full-time
