@@ -141,8 +141,12 @@ small {
         font-weight: $base-font-weight * 1.50;
       }
 
-      .project-name,
-      .institution,
+      .project-name {
+        font-size: $huge-font-size;
+      }
+      .institution {
+        font-size: $large-font-size;
+      }
       .certificate-name,
       .publication-title,
       .award-name,
@@ -153,9 +157,7 @@ small {
       .role {
         font-size: $large-font-size;
       }
-      .major {
-        font-size: $large-font-size;
-      }
+      .major,
       .issuer,
       .authors,
       .awarder,
