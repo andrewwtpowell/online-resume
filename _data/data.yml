@@ -46,8 +46,8 @@ experience:
         + Completed prototype service within first 3 weeks of joining team, ensuring demonstration was ready for large management audience
         + Leveraged multiple UAV messaging standards (OMS and STANAG4586) to provide adaptive control capabilities
         + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
+        + Created robust CMake build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
         
-      # + Created robust CMake build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
 
       #+ Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
         
@@ -119,10 +119,10 @@ project:
       description: |
         + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Go, gRPC, etcd, and Azure Blob Storage
         + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
+        + Leveraged Go concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
+        + Created interface for users to provide data processing algorithms and datasets to use within framework
+        + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
 
-      # + Leveraged Go concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
-      # + Created interface for users to provide data processing algorithms and datasets to use within framework
-      # + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
 
     - name: Software Defined Network Controller
       link: # https://github.gatech.edu/apowell83/sdn-project
@@ -131,9 +131,9 @@ project:
       description: |
         + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
         + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
+        + Implemented handling for dynamic topology changes during runtime
+        + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
 
-    #    + Implemented handling for dynamic topology changes during runtime
-    #    + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
 
       #+ Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
 
