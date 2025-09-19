@@ -196,6 +196,7 @@ skill:
         - Python
         - C
         - Go
+        - Java
         - C#
     - name: DevOps & Build Tools
       item:
