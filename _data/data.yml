@@ -84,16 +84,16 @@ experience:
       date: 2019 - 2020
       role: Software Engineer
       location: Detroit, MI
-      # description: |
-      #   + TBD
+      description: |
+        + Performed requirements analysis and software design for smart drivetrain system
 
     - company: Fractal Industries
       tags: Intern
       date: 2019 - 2019
       role: Software Engineer
       location: Reston, VA
-      # description: |
-      #   + TBD
+      description: |
+        + Improved data pipeline to facilitate quicker automated testing and model training
       
     #- company: INVENSITY Technology Consulting
     #  link:
