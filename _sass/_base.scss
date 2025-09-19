@@ -136,7 +136,11 @@ small {
         }
       }
 
-      .company,
+      .company {
+        font-size: $large-font-size;
+        font-weight: $base-font-weight * 1.50;
+      }
+
       .project-name,
       .institution,
       .certificate-name,
@@ -146,12 +150,17 @@ small {
         font-weight: $base-font-weight * 1.50;
       }
 
-      .role,
-      .major,
+      .role {
+        font-size: $large-font-size;
+      }
+      .major {
+        font-size: $large-font-size;
+      }
       .issuer,
       .authors,
       .awarder,
       .reference-title {
+        font-size: $large-font-size;
         font-style: italic;
       }
 
