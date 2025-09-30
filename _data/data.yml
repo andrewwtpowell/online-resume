@@ -197,23 +197,23 @@ skill:
         - C
         - Go
         - Java
+        - CUDA
         - C#
     - name: DevOps & Build Tools
       item:
         - Docker
         - Kubernetes
+        - Azure
         - Gitlab CI/CD
-        - Github Actions
         - CMake
         - Conan
-        - Sonarqube
-        - Ansible
+        - Github Actions
     - name: Operating Systems
       item:
         - Linux (RHEL, Ubuntu, Alpine)
         - Green Hills INTEGRITY RTOS
         - VxWorks
-    - name: Systems Engineering
+    - name: Architecture & Design
       item:
         - Model-Based Systems Engineering
         - Cameo
