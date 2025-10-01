@@ -124,15 +124,15 @@ project:
         + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
 
 
-    - name: Software Defined Network Controller
-      link: # https://github.gatech.edu/apowell83/sdn-project
-      tags: Georgia Tech
-      date: 2024
-      description: |
-        + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
-        + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
-        + Implemented handling for dynamic topology changes during runtime
-        + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
+    # - name: Software Defined Network Controller
+    #   link: # https://github.gatech.edu/apowell83/sdn-project
+    #   tags: Georgia Tech
+    #   date: 2024
+    #   description: |
+    #     + Designed and implemented various SDN routing algorithms, such as Shortest Path and Proactive Widest Path, to reduce latency and optimize network link utilization
+    #     + Incorporated dynamic network topology discovery for the SDN Controller using third-party event APIs
+    #     + Implemented handling for dynamic topology changes during runtime
+    #     + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
 
 
       #+ Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
