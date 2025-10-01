@@ -136,19 +136,9 @@ small {
         }
       }
 
-      .company {
-        font-size: $large-font-size;
-        font-weight: $base-font-weight * 1.50;
-      }
-
-      .project-name {
-        font-size: $large-font-size;
-        font-weight: $base-font-weight * 1.50;
-      }
-      .institution {
-        font-size: $large-font-size;
-        font-weight: $base-font-weight * 1.50;
-      }
+      .company,
+      .project-name,
+      .institution,
       .certificate-name,
       .publication-title,
       .award-name,
@@ -156,19 +146,12 @@ small {
         font-weight: $base-font-weight * 1.50;
       }
 
-      .role {
-        font-size: $middle-font-size;
-        font-style: italic;
-      }
-      .major {
-        font-size: $middle-font-size;
-        font-style: italic;
-      }
+      .role,
+      .major,
       .issuer,
       .authors,
       .awarder,
       .reference-title {
-        font-size: $large-font-size;
         font-style: italic;
       }
 
@@ -204,7 +187,7 @@ small {
 
       .title {
         color: $text-second-color;
-        font-size: $large-font-size;
+        font-size: $middle-font-size;
         font-weight: $base-font-weight;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
@@ -291,7 +274,6 @@ small {
           }
 
           .group-name {
-            font-size: $large-font-size;
             font-weight: $base-font-weight * 1.50;
             flex-basis: 20%;
           }
