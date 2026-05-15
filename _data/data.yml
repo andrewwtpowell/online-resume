@@ -221,7 +221,7 @@ skill:
   groups:
     - name: Machine Learning
       item:
-        - pytorch
+        - Pytorch
         - LSTM
         - RNN
         - CNN
@@ -234,7 +234,7 @@ skill:
         - C
         - Go
         - CUDA
-    - name: Operating Systems & Computing Platforms
+    - name: Computing Platforms
       item:
         - Linux (RHEL, Ubuntu, Alpine)
         - VMWare ESXi
