@@ -129,7 +129,7 @@ project:
       description: |
         + Trained Key-Value Memory Network model to perform question answering using supervised learning and attention mechanisms
         + Prepared data for model training by creating vocabulary, tokenizing text, and creating dense embedded representations using GloVe
-        + Implemented model using pytorch consisting of embedding layer, multiple batch matrix multiplies, and softmax layer
+        + Implemented model using PyTorch consisting of embedding layer, multiple batch matrix multiplies, and softmax layer
         + Trained model using vocabulary containing ~90,000 words, and a backend retrieval database of ~45,000 entries
         + Achieved testing accuracy of ~82% during training, with roughly similar accuracy against validation set indicating model generalization
 
@@ -137,7 +137,7 @@ project:
       tags: Georgia Tech
       date: 2026
       description: |
-        + Implemented a Long Short-Term Memory Network (LSTM) language model using Recurrent Neural Network (RNN) fundamentals in pytorch
+        + Implemented a Long Short-Term Memory Network (LSTM) language model using Recurrent Neural Network (RNN) fundamentals in PyTorch
         + Incorporated multiple LSTM cells, a linear layer, and a log softmax layer in the model architecture
         + Utilized temperature-based multinomial sampling during text continuation generation, ensuring coherent, non-repetitive results
         + Integrated self-attention capability in the LSTM Decoder, improving response perplexity score from ~500 to ~300
@@ -222,7 +222,7 @@ skill:
   groups:
     - name: Machine Learning
       item:
-        - Pytorch
+        - PyTorch
         - NLP
         - LSTM
         - RNN
