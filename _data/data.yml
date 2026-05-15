@@ -69,8 +69,8 @@ experience:
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
-        + Developed distributed, fault-tolerant backend services written in C++ capable of handling node failures while maintaining high performance, reducing service downtime by 60%
-        + Implemented data ingestion capabilities, aggregating data from lightweight distributed data collection agents and ensuring up-to-date data availability
+        + Developed distributed, fault-tolerant backend services written in C++ capable of handling node failures while maintaining high performance
+        + Implemented data ingestion capabilities, aggregating data from distributed data collection agents and ensuring up-to-date data availability
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Created GitLab CI/CD pipelines to automate building, testing, static code analysis, and deployment of backend services
 
