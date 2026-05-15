@@ -238,7 +238,7 @@ skill:
       item:
         - Linux (RHEL, Ubuntu, Alpine)
         - VMWare ESXi
-        - RKE2
+        - Kubernetes
     #- name: DevOps & Build Tools
     #  item:
     #    - Docker
