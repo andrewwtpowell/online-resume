@@ -43,7 +43,7 @@ experience:
       location: Englewood, CO
       description: |
         Data Operations Pipeline
-        + Led software team - communicating status to program leadership, coming up with stories for software team, and supporting new team members with platform understanding
+        + Led software team by communicating status to leadership, planning software features, and supporting new team members with platform understanding
         + Deployed and integrated services such as Apache Spark and MinIO to facilitate data processing in preparation for CNN training
         + Automated RKE2 infrastructure deployment using Ansible, reducing redeployment time from multiple hours to under 2 minutes
         + Created data management strategy for data lakehouse architecture, defining data maturity zones and data isolation mechanisms
@@ -65,7 +65,7 @@ experience:
     - company: General Dynamics Mission Systems
       link:
       tags: Full-time
-      date: 2023 - 2025
+      date: 2020 - 2025
       role: Senior Software Engineer
       location: Remote - Denver, CO
       description: |
@@ -80,16 +80,16 @@ experience:
       # + Led a team of five in building a scalable, reliable cloud platform
       # + Optimized data lookup speed through the creation of an in-memory graph database
       # + Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
-    - company: General Dynamics Mission Systems
-      link:
-      tags: Full-time
-      date: 2020 - 2023
-      role: Software Engineer
-      location: Pittsfield, MA
-      description: |
-        + Led software development efforts for modernization of shipboard diagnostic tool
-        + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
-        + Implemented GitLab CI/CD pipeline with Ansible playbooks and Docker container generation to automate system deployment
+    #- company: General Dynamics Mission Systems
+    #  link:
+    #  tags: Full-time
+    #  date: 2020 - 2023
+    #  role: Software Engineer
+    #  location: Pittsfield, MA
+    #  description: |
+    #    + Led software development efforts for modernization of shipboard diagnostic tool
+    #    + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
+    #    + Implemented GitLab CI/CD pipeline with Ansible playbooks and Docker container generation to automate system deployment
 
     # - company: American Axle & Manufacturing
     #   tags: Contract
