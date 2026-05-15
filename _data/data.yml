@@ -43,7 +43,8 @@ experience:
       location: Englewood, CO
       description: |
         Data Operations Pipeline
-        + Led software team by communicating status to leadership, planning software features, and supporting new team members with platform understanding
+        + Led effort to create data processing pipeline supporting scalable AI/ML systems
+        + Supported new and junior team members in platform understanding and Kubernetes fundamentals
         + Deployed and integrated services such as Apache Spark and MinIO to facilitate data processing in preparation for CNN training
         + Automated RKE2 infrastructure deployment using Ansible, reducing redeployment time from multiple hours to under 2 minutes
         + Created data management strategy for data lakehouse architecture, defining data maturity zones and data isolation mechanisms
@@ -126,9 +127,9 @@ project:
       tags: Georgia Tech
       date: 2026
       description: |
-        + Trained Key-Value Memory Network model capable of performing question answering using self-attention mechanisms similar to transformers
-        + Prepared data for model training by tokenizing, creating vocabulary, and creating dense representations using GloVe
-        + Implemented model consisting of embedding layer, multiple batch matrix multiplies, and softmax layer using pytorch
+        + Trained Key-Value Memory Network model to perform question answering using supervised learning and attention mechanisms
+        + Prepared data for model training by creating vocabulary, tokenizing text, and creating dense embedded representations using GloVe
+        + Implemented model using pytorch consisting of embedding layer, multiple batch matrix multiplies, and softmax layer
         + Trained model using vocabulary containing ~90,000 words, and a backend retrieval database of ~45,000 entries
         + Achieved testing accuracy of ~82% during training, with roughly similar accuracy against validation set indicating model generalization
 
