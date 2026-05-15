@@ -238,8 +238,9 @@ skill:
     - name: Computing Platforms
       item:
         - Linux (RHEL, Ubuntu, Alpine)
-        - VMWare ESXi
+        - Docker
         - Kubernetes
+        - VMWare ESXi
     #- name: DevOps & Build Tools
     #  item:
     #    - Docker
