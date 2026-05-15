@@ -10,13 +10,13 @@ contact:
   location: Denver, CO
   email: powell.andrew26@gmail.com
   phone: +1-703-989-8691
-  website: 
+  website:
 
   # programmer
   # github: andrewwtpowell
 
   # other cv
-  linkedin: #andrew-powell-0792a8153
+  linkedin: # andrew-powell-0792a8153
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -33,26 +33,37 @@ experience:
   show: true
   order: 1
   title: Professional Experience
-  description: 
+  description:
   items:
     - company: Sierra Nevada Corporation
-      link: 
-      tags: Contract
+      link:
+      tags: Full-time
       date: 2025 - Present
       role: Software Engineer III
       location: Englewood, CO
       description: |
-        + Developed Adaptive Command and Control System for Unmanned Air Vehicles using C++ and C#
-        + Completed prototype service within first 3 weeks of joining team, ensuring demonstration was ready for large management audience
-        + Leveraged multiple UAV messaging standards (UCI and STANAG4586) to provide adaptive control capabilities
-        + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
-        + Created robust CMake build system complete with dependency management using Conan, automated testing and static analysis, and Docker container generation
-        
+        Data Operations Pipeline
+        + Led software team - communicating status to program leadership, coming up with stories for software team, and supporting new team members with platform understanding
+        + Deployed and integrated services such as Apache Spark and MinIO to facilitate data processing in preparation for CNN training
+        + Automated RKE2 infrastructure deployment using Ansible, reducing redeployment time from multiple hours to under 2 minutes
+        + Created data management strategy for data lakehouse architecture, defining data maturity zones and data isolation mechanisms
 
-      #+ Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
-        
+        High Altitude Balloon Sensor C2 System
+        + Led software effort for interfacing between a custom sensor API and common UCI C2 UI
+        + Worked with multiple teams to ensure system-wide integration
+        + Implemented multi-threaded, high-throughput data processing service in C++ capable of handling 30Hz rates
+        + Integrated with sensor fusion system by converting between coordinate systems and sensor orientation paradigms
+
+        UAV C2 System
+        + Developed Adaptive Command and Control System for Unmanned Air Vehicles using C++ and C#
+        + Leveraged multiple messaging standards (UCI and STANAG4586) to provide control capabilities for heterogeneous systems
+        + Collaborated with team of engineers to design service-based architecture complying with MOSA initiatives
+        + Developed data layer service ensuring different message brokers could communicate for larger scale integration
+
+      # + Integrated third-party software libraries, accelerating time-to-deployment significantly compared to developing bespoke implementations
+
     - company: General Dynamics Mission Systems
-      link: 
+      link:
       tags: Full-time
       date: 2023 - 2025
       role: Senior Software Engineer
@@ -63,14 +74,14 @@ experience:
         + Designed and implemented scalable resource-oriented service APIs, supporting needs of 10+ dependent systems
         + Created GitLab CI/CD pipelines to automate building, testing, static code analysis, and deployment of backend services
 
-      #+ Presented solutions for container orchestration, service design, and server time synchronization to customers
-      #+ Led software architecture and design activities for backend services
-      #+ Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
-      #+ Led a team of five in building a scalable, reliable cloud platform 
-      #+ Optimized data lookup speed through the creation of an in-memory graph database
-      #+ Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
+      # + Presented solutions for container orchestration, service design, and server time synchronization to customers
+      # + Led software architecture and design activities for backend services
+      # + Utilized strategy and adapter patterns for service design to support code reuse and improve maintainability
+      # + Led a team of five in building a scalable, reliable cloud platform
+      # + Optimized data lookup speed through the creation of an in-memory graph database
+      # + Implemented Remote Display Server supporting simultaneous display of multiple remote applications using Apache Guacamole
     - company: General Dynamics Mission Systems
-      link: 
+      link:
       tags: Full-time
       date: 2020 - 2023
       role: Software Engineer
@@ -80,47 +91,65 @@ experience:
         + Modernized legacy UI, rewriting applications using Python Flask, htmx, and css
         + Implemented GitLab CI/CD pipeline with Ansible playbooks and Docker container generation to automate system deployment
 
-    - company: American Axle & Manufacturing
-      tags: Contract
-      date: 2019 - 2020
-      role: Software Engineer
-      location: Detroit, MI
-      description: |
-        + Performed requirements analysis and software design for smart drivetrain system
+    # - company: American Axle & Manufacturing
+    #   tags: Contract
+    #   date: 2019 - 2020
+    #   role: Software Engineer
+    #   location: Detroit, MI
+    #   description: |
+    #     + Performed requirements analysis and software design for smart drivetrain system
 
-    - company: Fractal Industries
-      tags: Intern
-      date: 2018 - 2019
-      role: Software Engineer
-      location: Reston, VA
-      description: |
-        + Improved data pipeline to facilitate quicker automated testing and model training
-      
-    #- company: INVENSITY Technology Consulting
-    #  link:
-    #  tags: Full-time
-    #  date: 2019 - 2020
-    #  role: Systems Engineering Consultant
-    #  location: Detroit, MI
-    #  description: |
-    #    + Performed requirements decomposition for automotive control system
+    # - company: Fractal Industries
+    #   tags: Intern
+    #   date: 2018 - 2019
+    #   role: Software Engineer
+    #   location: Reston, VA
+    #   description: |
+    #     + Improved data pipeline to facilitate quicker automated testing and model training
+    # - company: INVENSITY Technology Consulting
+    #   link:
+    #   tags: Full-time
+    #   date: 2019 - 2020
+    #   role: Systems Engineering Consultant
+    #   location: Detroit, MI
+    #   description: |
+    #     + Performed requirements decomposition for automotive control system
 
 project:
   show: true
   order: 2
   title: Projects
-  description: 
+  description:
   items:
 
-    - name: MapReduce Framework
-      link: # https://github.gatech.edu/apowell83/mapreduce
+    - name: Key-Value Memory Network
       tags: Georgia Tech
-      date: 2024
+      date: 2026
       description: |
-        + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Go, gRPC, etcd, and Azure Blob Storage
-        + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
-        + Created interface for users to custom provide data processing algorithms and datasets to use within framework
-        + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
+        + Trained Key-Value Memory Network model capable of performing question answering using self-attention mechanisms similar to transformers
+        + Prepared data for model training by tokenizing, creating vocabulary, and creating dense representations using GloVe
+        + Implemented model consisting of embedding layer, multiple batch matrix multiplies, and softmax layer using pytorch
+        + Trained model using vocabulary containing ~90,000 words, and a backend retrieval database of ~45,000 entries
+        + Achieved testing accuracy of ~82% during training, with roughly similar accuracy against validation set indicating model generalization
+
+    - name: NLP Long Short-Term Memory Network
+      tags: Georgia Tech
+      date: 2026
+      description: |
+        + Implemented a Long Short-Term Memory Network (LSTM) language model using Recurrent Neural Network (RNN) fundamentals in pytorch
+        + Incorporated multiple LSTM cells, a linear layer, and a log softmax layer in the model architecture
+        + Utilized temperature-based multinomial sampling during text continuation generation, ensuring coherent, non-repetitive results
+        + Integrated self-attention capability in the LSTM Decoder, improving response perplexity score from ~500 to ~300
+
+    #- name: MapReduce Framework
+    #  link: # https://github.gatech.edu/apowell83/mapreduce
+    #  tags: Georgia Tech
+    #  date: 2024
+    #  description: |
+    #    + Developed distributed, multi-threaded data processing framework deployed in Azure Kubernetes Service (AKS) using Go, gRPC, etcd, and Azure Blob Storage
+    #    + Implemented master node failure handling using etcd to ensure long-running data processing tasks are unaffected by node failures
+    #    + Created interface for users to custom provide data processing algorithms and datasets to use within framework
+    #    + Optimized framework to process 1GB+ dataset in under 5 minutes, improving execution time by 65% compared to baseline implementations
 
       # + Leveraged Go concurrency model and Kubernetes pod scaling mechanisms to improve processing time for large datasets
 
@@ -135,34 +164,34 @@ project:
     #     + Leveraged third-party APIs to program network switches in the topology consistent with the configured routing algorithm
 
 
-      #+ Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
+      # + Improved testing capabilities by programmatically deploying and updating network topologies based on json configuration files
 
-    #- name: Carbon Aware Computing Application
-    #  tags: Georgia Tech
-    #  date: 2024
-    #  description: |
-    #    + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
-    #    + Utilized Azure Functions for serverless design and Cosmos DB for data storage
-    #    + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
-    #    + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
+    # - name: Carbon Aware Computing Application
+    #   tags: Georgia Tech
+    #   date: 2024
+    #   description: |
+    #     + Created serverless Azure utility that provides carbon impact data, enabling users to optimize cloud deployments for sustainability
+    #     + Utilized Azure Functions for serverless design and Cosmos DB for data storage
+    #     + Developed CLI for users to get data on renewable energy available at Azure Data Center locations
+    #     + Created map visualization for users to see where carbon emissions are highest in relation to Azure Data Center locations
 
     #  #+ Integrated third-party API for retrieving carbon emission data
-        
+
     # - name: Infrastructure Monitoring Application
-    #   link: 
+    #   link:
     #   tags: GDMS
     #   date: 2024
     #   description: |
     #     + Implemented C++ application to monitor status and resource utilization of cluster nodes, pods, and containers
     #     + Leveraged RTI DDS to publish current status to subscribers on the network
 
-    #- name: Distributed Ecommerce Service
-    #  link: https://github.gatech.edu/apowell83/ecommerce-service
-    #  tags: Georgia Tech
-    #  date: 2024
-    #  description: |
-    #    + Implemented service that gathers and communicates product vendor bids based on client requests
-    #    + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
+    # - name: Distributed Ecommerce Service
+    #   link: https://github.gatech.edu/apowell83/ecommerce-service
+    #   tags: Georgia Tech
+    #   date: 2024
+    #   description: |
+    #     + Implemented service that gathers and communicates product vendor bids based on client requests
+    #     + Leveraged asynchronous gRPC and thread pool implementation to support scalable request processing
 
     # - name: Distributed File System
     #   link: # https://github.gatech.edu/apowell83/dfs
@@ -191,8 +220,8 @@ skill:
   #   Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
   groups:
     - name: Programming Languages
-      item: 
-        - C++ 
+      item:
+        - C++
         - Python
         - C
         - Go
@@ -219,34 +248,34 @@ skill:
         - Cameo
         - UML Design
         - SysML Design
-    #- name: Distributed Systems
-    #  item: 
-    #    - Kubernetes
-    #    - gRPC
-    #    - etcd
-    #    - Software Defined Networking
-    # - name: Cloud & DevOps
-    #   item: 
-    #     - Azure (Blob Storage, Functions, Cosmos DB)
-    #     - Docker
-    #     - GitLab CI/CD
-    #     - KVM
-    #     - Ansible
-    # - name: Networking
+    # - name: Distributed Systems
     #   item:
+    #     - Kubernetes
+    #     - gRPC
+    #     - etcd
     #     - Software Defined Networking
-    #     - Open vSwitch
-    #     - OpenFlow
-    #     - Network Function Virtualization
+    #  - name: Cloud & DevOps
+    #    item:
+    #      - Azure (Blob Storage, Functions, Cosmos DB)
+    #      - Docker
+    #      - GitLab CI/CD
+    #      - KVM
+    #      - Ansible
+    #  - name: Networking
+    #    item:
+    #      - Software Defined Networking
+    #      - Open vSwitch
+    #      - OpenFlow
+    #      - Network Function Virtualization
 
 education:
   show: true
   order: 4
   title: Education
-  description:   
+  description:
   items:
     - institution: Georgia Institute of Technology
-      link: 
+      link:
       date: 2023 - Present
       major: M.S. in Computer Science - Computing Systems Specialization (4.0 GPA)
       degree: Master
