@@ -1,6 +1,6 @@
 basic:
   name: Andrew Powell
-  title: Senior Software Engineer
+  title: AI/ML Engineer
   avatar:
     show: false
     path: /assets/images/profile.png # avatar file path
@@ -219,35 +219,41 @@ skill:
   # description: |
   #   Golang, C++, gRPC, Linux (RHEL, Ubuntu, Alpine), GitLab CI/CD, Docker, C, Python, Bash, Kubernetes, Ansible, Azure
   groups:
+    - name: Machine Learning
+      item:
+        - pytorch
+        - LSTM
+        - RNN
+        - CNN
+        - Apache Spark
+        - Transformer Architecture
     - name: Programming Languages
       item:
         - C++
         - Python
         - C
         - Go
-        - Java
         - CUDA
-        - C#
-    - name: DevOps & Build Tools
-      item:
-        - Docker
-        - Kubernetes
-        - Azure
-        - Gitlab CI/CD
-        - CMake
-        - Conan
-        - Github Actions
-    - name: Operating Systems
+    - name: Operating Systems & Computing Platforms
       item:
         - Linux (RHEL, Ubuntu, Alpine)
-        - Green Hills INTEGRITY RTOS
-        - VxWorks
-    - name: Architecture & Design
-      item:
-        - Model-Based Systems Engineering
-        - Cameo
-        - UML Design
-        - SysML Design
+        - VMWare ESXi
+        - RKE2
+    #- name: DevOps & Build Tools
+    #  item:
+    #    - Docker
+    #    - Kubernetes
+    #    - Azure
+    #    - Gitlab CI/CD
+    #    - CMake
+    #    - Conan
+    #    - Github Actions
+    #- name: Architecture & Design
+    #  item:
+    #    - Model-Based Systems Engineering
+    #    - Cameo
+    #    - UML Design
+    #    - SysML Design
     # - name: Distributed Systems
     #   item:
     #     - Kubernetes
